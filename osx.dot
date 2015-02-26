@@ -1,0 +1,1701 @@
+digraph G {
+	node [shape=box];
+	splines=ortho;
+	ranksep=4;
+
+	{Legend [shape=none, margin=0, label=<
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+         <TR>
+          <TD COLSPAN="2"><B>OS X 10.10.2</B></TD>
+         </TR>
+         <TR>
+          <TD COLSPAN="2">Frameworks dependancies</TD>
+         </TR>
+         <TR>
+          <TD COLSPAN="2">2015-02-25 @nst021</TD>
+         </TR>
+         <TR>
+          <TD>.framework</TD>
+          <TD BGCOLOR="gold"></TD>
+         </TR>
+         <TR>
+          <TD>.dylib</TD>
+          <TD BGCOLOR="lightblue"></TD>
+         </TR>
+        </TABLE>
+        >];
+    }
+
+	subgraph "cluster_/System/Library/Frameworks/Tk.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/Tk.framework" [label = "Tk", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libsystem_stats.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libsystem_stats.dylib" [label = "libsystem_stats", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_@rpath/ACDEClient.framework" {
+		style = filled;
+		color = gold;
+		"@rpath/ACDEClient.framework" [label = "ACDEClient", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/CoreGraphics.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/CoreGraphics.framework" [label = "CoreGraphics", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libbsm.0.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libbsm.0.dylib" [label = "libbsm.0", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/IOSurface.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/IOSurface.framework" [label = "IOSurface", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/OpenDirectory.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/OpenDirectory.framework" [label = "OpenDirectory", style=filled, fillcolor="white"];
+		"/System/Library/Frameworks/OpenDirectory.framework/Versions/A/Frameworks/CFOpenDirectory.framework" [label = "CFOpenDirectory", style=filled, fillcolor="gold"];
+	}
+	subgraph "cluster_/usr/lib/libsqlite3.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libsqlite3.dylib" [label = "libsqlite3", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/CoreText.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/CoreText.framework" [label = "CoreText", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libunc.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libunc.dylib" [label = "libunc", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/QuickLook.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/QuickLook.framework" [label = "QuickLook", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libdyld.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libdyld.dylib" [label = "libdyld", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/AppKitScripting.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/AppKitScripting.framework" [label = "AppKitScripting", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/InputMethodKit.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/InputMethodKit.framework" [label = "InputMethodKit", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libsystem_platform.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libsystem_platform.dylib" [label = "libsystem_platform", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/System.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/System.framework" [label = "System", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libmacho.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libmacho.dylib" [label = "libmacho", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/OpenCL.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/OpenCL.framework" [label = "OpenCL", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/Security.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/Security.framework" [label = "Security", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/VideoToolbox.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/VideoToolbox.framework" [label = "VideoToolbox", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libsystem_c.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libsystem_c.dylib" [label = "libsystem_c", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/QuartzCore.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/QuartzCore.framework" [label = "QuartzCore", style=filled, fillcolor="white"];
+		"/System/Library/Frameworks/QuartzCore.framework/Versions/A/Frameworks/CoreImage.framework" [label = "CoreImage", style=filled, fillcolor="gold"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/CoreMediaIO.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/CoreMediaIO.framework" [label = "CoreMediaIO", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/Python.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/Python.framework" [label = "Python", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libsystem_malloc.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libsystem_malloc.dylib" [label = "libsystem_malloc", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libOpenScriptingUtil.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libOpenScriptingUtil.dylib" [label = "libOpenScriptingUtil", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libsystem_info.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libsystem_info.dylib" [label = "libsystem_info", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libxpc.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libxpc.dylib" [label = "libxpc", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/FinderSync.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/FinderSync.framework" [label = "FinderSync", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/QTKit.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/QTKit.framework" [label = "QTKit", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libunwind.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libunwind.dylib" [label = "libunwind", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/ICADevices.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/ICADevices.framework" [label = "ICADevices", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/AppleScriptObjC.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/AppleScriptObjC.framework" [label = "AppleScriptObjC", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libiconv.2.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libiconv.2.dylib" [label = "libiconv.2", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/MediaLibrary.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/MediaLibrary.framework" [label = "MediaLibrary", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/JavaFrameEmbedding.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/JavaFrameEmbedding.framework" [label = "JavaFrameEmbedding", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/LatentSemanticMapping.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/LatentSemanticMapping.framework" [label = "LatentSemanticMapping", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/SecurityInterface.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/SecurityInterface.framework" [label = "SecurityInterface", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/GLKit.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/GLKit.framework" [label = "GLKit", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libsystem_asl.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libsystem_asl.dylib" [label = "libsystem_asl", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libcmph.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libcmph.dylib" [label = "libcmph", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_@rpath/FinderSync.framework" {
+		style = filled;
+		color = gold;
+		"@rpath/FinderSync.framework" [label = "FinderSync", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libxml2.2.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libxml2.2.dylib" [label = "libxml2.2", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libheimdal-asn1.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libheimdal-asn1.dylib" [label = "libheimdal-asn1", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/MapKit.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/MapKit.framework" [label = "MapKit", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libpam.2.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libpam.2.dylib" [label = "libpam.2", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libicucore.A.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libicucore.A.dylib" [label = "libicucore.A", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/DiskArbitration.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/DiskArbitration.framework" [label = "DiskArbitration", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/CoreVideo.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/CoreVideo.framework" [label = "CoreVideo", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libIASAuthReboot.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libIASAuthReboot.dylib" [label = "libIASAuthReboot", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/CoreFoundation.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/CoreFoundation.framework" [label = "CoreFoundation", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libsystem_secinit.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libsystem_secinit.dylib" [label = "libsystem_secinit", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libexpat.1.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libexpat.1.dylib" [label = "libexpat.1", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libstdc++.6.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libstdc++.6.dylib" [label = "libstdc++.6", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/Scripting.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/Scripting.framework" [label = "Scripting", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libScreenReader.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libScreenReader.dylib" [label = "libScreenReader", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libsystem_pthread.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libsystem_pthread.dylib" [label = "libsystem_pthread", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libcache.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libcache.dylib" [label = "libcache", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/CoreServices/ZoomWindow.app/Contents/Frameworks/ZoomWindowSupport.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/CoreServices/ZoomWindow.app/Contents/Frameworks/ZoomWindowSupport.framework" [label = "ZoomWindowSupport", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/CoreWLAN.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/CoreWLAN.framework" [label = "CoreWLAN", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/SyncServices.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/SyncServices.framework" [label = "SyncServices", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libDiagnosticMessagesClient.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libDiagnosticMessagesClient.dylib" [label = "libDiagnosticMessagesClient", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libodfde.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libodfde.dylib" [label = "libodfde", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/OSAKit.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/OSAKit.framework" [label = "OSAKit", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libcups.2.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libcups.2.dylib" [label = "libcups.2", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/AudioUnit.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/AudioUnit.framework" [label = "AudioUnit", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libktrace.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libktrace.dylib" [label = "libktrace", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/AppleScriptKit.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/AppleScriptKit.framework" [label = "AppleScriptKit", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/SecurityFoundation.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/SecurityFoundation.framework" [label = "SecurityFoundation", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/FWAUserLib.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/FWAUserLib.framework" [label = "FWAUserLib", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libCRFSuite.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libCRFSuite.dylib" [label = "libCRFSuite", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libsystem_blocks.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libsystem_blocks.dylib" [label = "libsystem_blocks", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libsystem_configuration.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libsystem_configuration.dylib" [label = "libsystem_configuration", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libc++.1.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libc++.1.dylib" [label = "libc++.1", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/CalendarStore.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/CalendarStore.framework" [label = "CalendarStore", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/IOBluetoothUI.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/IOBluetoothUI.framework" [label = "IOBluetoothUI", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_@rpath/LLDB.framework" {
+		style = filled;
+		color = gold;
+		"@rpath/LLDB.framework" [label = "LLDB", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/Message.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/Message.framework" [label = "Message", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libtidy.A.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libtidy.A.dylib" [label = "libtidy.A", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/IOKit.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/IOKit.framework" [label = "IOKit", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libcsfde.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libcsfde.dylib" [label = "libcsfde", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libsystem_coretls.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libsystem_coretls.dylib" [label = "libsystem_coretls", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libarchive.2.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libarchive.2.dylib" [label = "libarchive.2", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libcrypto.0.9.8.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libcrypto.0.9.8.dylib" [label = "libcrypto.0.9.8", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_@rpath/OpusKit.framework" {
+		style = filled;
+		color = gold;
+		"@rpath/OpusKit.framework" [label = "OpusKit", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/Quartz.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/Quartz.framework" [label = "Quartz", style=filled, fillcolor="white"];
+		"/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework" [label = "QuickLookUI", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/ImageKit.framework" [label = "ImageKit", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuartzComposer.framework" [label = "QuartzComposer", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuartzFilters.framework" [label = "QuartzFilters", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/PDFKit.framework" [label = "PDFKit", style=filled, fillcolor="gold"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/StoreKit.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/StoreKit.framework" [label = "StoreKit", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libsystem_coreservices.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libsystem_coreservices.dylib" [label = "libsystem_coreservices", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/CoreBluetooth.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/CoreBluetooth.framework" [label = "CoreBluetooth", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/GLUT.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/GLUT.framework" [label = "GLUT", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libpcap.A.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libpcap.A.dylib" [label = "libpcap.A", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libsystem_kernel.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libsystem_kernel.dylib" [label = "libsystem_kernel", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libobjc.A.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libobjc.A.dylib" [label = "libobjc.A", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/CFNetwork.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/CFNetwork.framework" [label = "CFNetwork", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libextension.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libextension.dylib" [label = "libextension", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/CoreMIDI.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/CoreMIDI.framework" [label = "CoreMIDI", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/AVKit.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/AVKit.framework" [label = "AVKit", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/TWAIN.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/TWAIN.framework" [label = "TWAIN", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/OpenAL.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/OpenAL.framework" [label = "OpenAL", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/DirectoryService.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/DirectoryService.framework" [label = "DirectoryService", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/CryptoTokenKit.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/CryptoTokenKit.framework" [label = "CryptoTokenKit", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/JavaVM.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/JavaVM.framework" [label = "JavaVM", style=filled, fillcolor="white"];
+		"/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework" [label = "JavaNativeFoundation", style=filled, fillcolor="gold"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/SystemConfiguration.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/SystemConfiguration.framework" [label = "SystemConfiguration", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/NotificationCenter.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/NotificationCenter.framework" [label = "NotificationCenter", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/IMServicePlugIn.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/IMServicePlugIn.framework" [label = "IMServicePlugIn", style=filled, fillcolor="white"];
+		"/System/Library/Frameworks/IMServicePlugIn.framework/Versions/A/Frameworks/IMServicePlugInSupport.framework" [label = "IMServicePlugInSupport", style=filled, fillcolor="gold"];
+	}
+	subgraph "cluster_/usr/lib/libCoreStorage.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libCoreStorage.dylib" [label = "libCoreStorage", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/liblzma.5.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/liblzma.5.dylib" [label = "liblzma.5", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libsystem_sandbox.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libsystem_sandbox.dylib" [label = "libsystem_sandbox", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/ScriptingBridge.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/ScriptingBridge.framework" [label = "ScriptingBridge", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/CoreMIDIServer.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/CoreMIDIServer.framework" [label = "CoreMIDIServer", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/DVComponentGlue.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/DVComponentGlue.framework" [label = "DVComponentGlue", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/CoreAudio.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/CoreAudio.framework" [label = "CoreAudio", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/PCSC.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/PCSC.framework" [label = "PCSC", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/MediaAccessibility.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/MediaAccessibility.framework" [label = "MediaAccessibility", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/ExceptionHandling.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/ExceptionHandling.framework" [label = "ExceptionHandling", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_@rpath/OpusFoundation.framework" {
+		style = filled;
+		color = gold;
+		"@rpath/OpusFoundation.framework" [label = "OpusFoundation", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/CoreAudioKit.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/CoreAudioKit.framework" [label = "CoreAudioKit", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/ServiceManagement.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/ServiceManagement.framework" [label = "ServiceManagement", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/CoreAuthentication.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/CoreAuthentication.framework" [label = "CoreAuthentication", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libcompiler_rt.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libcompiler_rt.dylib" [label = "libcompiler_rt", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/CloudKit.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/CloudKit.framework" [label = "CloudKit", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/DiscRecordingUI.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/DiscRecordingUI.framework" [label = "DiscRecordingUI", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/MediaToolbox.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/MediaToolbox.framework" [label = "MediaToolbox", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libsandbox.1.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libsandbox.1.dylib" [label = "libsandbox.1", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libresolv.9.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libresolv.9.dylib" [label = "libresolv.9", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/NetworkExtension.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/NetworkExtension.framework" [label = "NetworkExtension", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libssl.0.9.8.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libssl.0.9.8.dylib" [label = "libssl.0.9.8", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/Hypervisor.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/Hypervisor.framework" [label = "Hypervisor", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/Accelerate.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/Accelerate.framework" [label = "Accelerate", style=filled, fillcolor="white"];
+		"/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib" [label = "libBLAS", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLinearAlgebra.dylib" [label = "libLinearAlgebra", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib" [label = "libLAPACK", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib" [label = "libvDSP", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework" [label = "vImage", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib" [label = "libvMisc", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework" [label = "vecLib", style=filled, fillcolor="gold"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/LDAP.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/LDAP.framework" [label = "LDAP", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libcommonCrypto.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libcommonCrypto.dylib" [label = "libcommonCrypto", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libTelephonyUtilDynamic.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libTelephonyUtilDynamic.dylib" [label = "libTelephonyUtilDynamic", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libxslt.1.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libxslt.1.dylib" [label = "libxslt.1", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libcurl.4.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libcurl.4.dylib" [label = "libcurl.4", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/Collaboration.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/Collaboration.framework" [label = "Collaboration", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/AudioToolbox.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/AudioToolbox.framework" [label = "AudioToolbox", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/vecLib.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/vecLib.framework" [label = "vecLib", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/GameKit.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/GameKit.framework" [label = "GameKit", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/IMCore.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/IMCore.framework" [label = "IMCore", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libz.1.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libz.1.dylib" [label = "libz.1", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/GameController.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/GameController.framework" [label = "GameController", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libsasl2.2.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libsasl2.2.dylib" [label = "libsasl2.2", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/Kerberos.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/Kerberos.framework" [label = "Kerberos", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/SceneKit.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/SceneKit.framework" [label = "SceneKit", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libcopyfile.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libcopyfile.dylib" [label = "libcopyfile", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/PubSub.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/PubSub.framework" [label = "PubSub", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/Accounts.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/Accounts.framework" [label = "Accounts", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/ForceFeedback.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/ForceFeedback.framework" [label = "ForceFeedback", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/MultipeerConnectivity.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/MultipeerConnectivity.framework" [label = "MultipeerConnectivity", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/EventKit.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/EventKit.framework" [label = "EventKit", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libsystem_network.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libsystem_network.dylib" [label = "libsystem_network", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/VideoDecodeAcceleration.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/VideoDecodeAcceleration.framework" [label = "VideoDecodeAcceleration", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/PreferencePanes.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/PreferencePanes.framework" [label = "PreferencePanes", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/InstallerPlugins.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/InstallerPlugins.framework" [label = "InstallerPlugins", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libexslt.0.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libexslt.0.dylib" [label = "libexslt.0", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libUniversalAccess.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libUniversalAccess.dylib" [label = "libUniversalAccess", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libffi.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libffi.dylib" [label = "libffi", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libquit.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libquit.dylib" [label = "libquit", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/liblaunch.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/liblaunch.dylib" [label = "liblaunch", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/AppKit.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/AppKit.framework" [label = "AppKit", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/Automator.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/Automator.framework" [label = "Automator", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/Ruby.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/Ruby.framework" [label = "Ruby", style=filled, fillcolor="white"];
+		"/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/libruby.2.0.0.dylib" [label = "libruby.2.0.0", style=filled, fillcolor="gold"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/AGL.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/AGL.framework" [label = "AGL", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/CoreServices.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/CoreServices.framework" [label = "CoreServices", style=filled, fillcolor="white"];
+		"/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework" [label = "AE", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework" [label = "OSServices", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework" [label = "SearchKit", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework" [label = "FSEvents", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework" [label = "DictionaryServices", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework" [label = "CarbonCore", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework" [label = "LaunchServices", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework" [label = "Metadata", style=filled, fillcolor="gold"];
+	}
+	subgraph "cluster_/usr/lib/system/libremovefile.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libremovefile.dylib" [label = "libremovefile", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/NetFS.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/NetFS.framework" [label = "NetFS", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/liblangid.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/liblangid.dylib" [label = "liblangid", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/Carbon.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/Carbon.framework" [label = "Carbon", style=filled, fillcolor="white"];
+		"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Print.framework" [label = "Print", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SpeechRecognition.framework" [label = "SpeechRecognition", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Help.framework" [label = "Help", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/NavigationServices.framework" [label = "NavigationServices", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/OpenScripting.framework" [label = "OpenScripting", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Ink.framework" [label = "Ink", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CommonPanels.framework" [label = "CommonPanels", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/ImageCapture.framework" [label = "ImageCapture", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CarbonSound.framework" [label = "CarbonSound", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SecurityHI.framework" [label = "SecurityHI", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework" [label = "HIToolbox", style=filled, fillcolor="gold"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/ImageIO.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/ImageIO.framework" [label = "ImageIO", style=filled, fillcolor="white"];
+		"/System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libGIF.dylib" [label = "libGIF", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libPng.dylib" [label = "libPng", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libJPEG.dylib" [label = "libJPEG", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libTIFF.dylib" [label = "libTIFF", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libJP2.dylib" [label = "libJP2", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libRadiance.dylib" [label = "libRadiance", style=filled, fillcolor="gold"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/AVFoundation.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/AVFoundation.framework" [label = "AVFoundation", style=filled, fillcolor="white"];
+		"/System/Library/Frameworks/AVFoundation.framework/Versions/A/Resources/libAVFAudio.dylib" [label = "libAVFAudio", style=filled, fillcolor="gold"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/AddressBook.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/AddressBook.framework" [label = "AddressBook", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libsystem_m.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libsystem_m.dylib" [label = "libsystem_m", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/ImageCaptureCore.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/ImageCaptureCore.framework" [label = "ImageCaptureCore", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libSystem.B.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libSystem.B.dylib" [label = "libSystem.B", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libdispatch.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libdispatch.dylib" [label = "libdispatch", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libbz2.1.0.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libbz2.1.0.dylib" [label = "libbz2.1.0", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libsystem_notify.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libsystem_notify.dylib" [label = "libsystem_notify", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libcorecrypto.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libcorecrypto.dylib" [label = "libcorecrypto", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libgcc_s.1.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libgcc_s.1.dylib" [label = "libgcc_s.1", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/DVDPlayback.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/DVDPlayback.framework" [label = "DVDPlayback", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/Kernel.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/Kernel.framework" [label = "Kernel", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/DrawSprocket.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/DrawSprocket.framework" [label = "DrawSprocket", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libkeymgr.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libkeymgr.dylib" [label = "libkeymgr", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/vmnet.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/vmnet.framework" [label = "vmnet", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libquarantine.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libquarantine.dylib" [label = "libquarantine", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/QuickTime.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/QuickTime.framework" [label = "QuickTime", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/DiscRecording.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/DiscRecording.framework" [label = "DiscRecording", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/LocalAuthentication.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/LocalAuthentication.framework" [label = "LocalAuthentication", style=filled, fillcolor="white"];
+		"/System/Library/Frameworks/LocalAuthentication.framework/Support/SharedInternals.framework" [label = "SharedInternals", style=filled, fillcolor="gold"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/InstantMessage.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/InstantMessage.framework" [label = "InstantMessage", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/CoreData.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/CoreData.framework" [label = "CoreData", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/IOBluetooth.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/IOBluetooth.framework" [label = "IOBluetooth", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/ScreenSaver.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/ScreenSaver.framework" [label = "ScreenSaver", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libmecabra.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libmecabra.dylib" [label = "libmecabra", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libxar.1.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libxar.1.dylib" [label = "libxar.1", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/OpenGL.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/OpenGL.framework" [label = "OpenGL", style=filled, fillcolor="white"];
+		"/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGFXShared.dylib" [label = "libGFXShared", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib" [label = "libGLU", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib" [label = "libGL", style=filled, fillcolor="gold"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/Social.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/Social.framework" [label = "Social", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libsystem_dnssd.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libsystem_dnssd.dylib" [label = "libsystem_dnssd", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/AudioVideoBridging.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/AudioVideoBridging.framework" [label = "AudioVideoBridging", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/CoreTelephony.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/CoreTelephony.framework" [label = "CoreTelephony", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/libauto.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/libauto.dylib" [label = "libauto", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/Foundation.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/Foundation.framework" [label = "Foundation", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libkxld.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libkxld.dylib" [label = "libkxld", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/CoreLocation.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/CoreLocation.framework" [label = "CoreLocation", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libsystem_networkextension.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libsystem_networkextension.dylib" [label = "libsystem_networkextension", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/CoreMedia.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/CoreMedia.framework" [label = "CoreMedia", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/ApplicationServices.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/ApplicationServices.framework" [label = "ApplicationServices", style=filled, fillcolor="white"];
+		"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework" [label = "HIServices", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework" [label = "PrintCore", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontRegistry.dylib" [label = "libFontRegistry", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontParser.dylib" [label = "libFontParser", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework" [label = "ColorSync", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework" [label = "LangAnalysis", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework" [label = "QD", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework" [label = "SpeechSynthesis", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework" [label = "ATS", style=filled, fillcolor="gold"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/SpriteKit.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/SpriteKit.framework" [label = "SpriteKit", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/Tcl.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/Tcl.framework" [label = "Tcl", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/WebKit.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/WebKit.framework" [label = "WebKit", style=filled, fillcolor="white"];
+		"/System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebCore.framework" [label = "WebCore", style=filled, fillcolor="gold"];
+		"/System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebKitLegacy.framework" [label = "WebKitLegacy", style=filled, fillcolor="gold"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/Cocoa.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/Cocoa.framework" [label = "Cocoa", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/usr/lib/system/libsystem_trace.dylib" {
+		style = filled;
+		color = lightblue;
+		"/usr/lib/system/libsystem_trace.dylib" [label = "libsystem_trace", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/JavaScriptCore.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/JavaScriptCore.framework" [label = "JavaScriptCore", style=filled, fillcolor="white"];
+	}
+	subgraph "cluster_/System/Library/Frameworks/GSS.framework" {
+		style = filled;
+		color = gold;
+		"/System/Library/Frameworks/GSS.framework" [label = "GSS", style=filled, fillcolor="white"];
+	}
+
+	"/System/Library/Frameworks/Tk.framework" -> "/System/Library/Frameworks/Carbon.framework" [ltail="cluster_/System/Library/Frameworks/Tk.framework",lhead="cluster_/System/Library/Frameworks/Carbon.framework"];
+	"/System/Library/Frameworks/Tk.framework" -> "/System/Library/Frameworks/Cocoa.framework" [ltail="cluster_/System/Library/Frameworks/Tk.framework",lhead="cluster_/System/Library/Frameworks/Cocoa.framework"];
+	"/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib" -> "/usr/lib/libSystem.B.dylib" [lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/usr/lib/system/libsystem_stats.dylib" -> "/usr/lib/system/libxpc.dylib" [ltail="cluster_/usr/lib/system/libsystem_stats.dylib",lhead="cluster_/usr/lib/system/libxpc.dylib"];
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Print.framework" -> "/usr/lib/libcups.2.dylib" [lhead="cluster_/usr/lib/libcups.2.dylib"];
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Print.framework" -> "/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework" ;
+	"/System/Library/Frameworks/CoreGraphics.framework" -> "/System/Library/Frameworks/Accelerate.framework" [ltail="cluster_/System/Library/Frameworks/CoreGraphics.framework",lhead="cluster_/System/Library/Frameworks/Accelerate.framework"];
+	"/System/Library/Frameworks/CoreGraphics.framework" -> "/System/Library/Frameworks/IOSurface.framework" [ltail="cluster_/System/Library/Frameworks/CoreGraphics.framework",lhead="cluster_/System/Library/Frameworks/IOSurface.framework"];
+	"/System/Library/Frameworks/CoreGraphics.framework" -> "/System/Library/Frameworks/SystemConfiguration.framework" [ltail="cluster_/System/Library/Frameworks/CoreGraphics.framework",lhead="cluster_/System/Library/Frameworks/SystemConfiguration.framework"];
+	"/System/Library/Frameworks/CoreGraphics.framework" -> "/System/Library/Frameworks/CoreServices.framework" [ltail="cluster_/System/Library/Frameworks/CoreGraphics.framework",lhead="cluster_/System/Library/Frameworks/CoreServices.framework"];
+	"/System/Library/Frameworks/CoreGraphics.framework" -> "/System/Library/Frameworks/Security.framework" [ltail="cluster_/System/Library/Frameworks/CoreGraphics.framework",lhead="cluster_/System/Library/Frameworks/Security.framework"];
+	"/usr/lib/libbsm.0.dylib" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/usr/lib/libbsm.0.dylib",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/System/Library/Frameworks/IOSurface.framework" -> "/System/Library/Frameworks/IOKit.framework" [ltail="cluster_/System/Library/Frameworks/IOSurface.framework",lhead="cluster_/System/Library/Frameworks/IOKit.framework"];
+	"/System/Library/Frameworks/OpenDirectory.framework" -> "/System/Library/Frameworks/SecurityFoundation.framework" [ltail="cluster_/System/Library/Frameworks/OpenDirectory.framework",lhead="cluster_/System/Library/Frameworks/SecurityFoundation.framework"];
+	"/usr/lib/libsqlite3.dylib" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/usr/lib/libsqlite3.dylib",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/usr/lib/system/libsystem_m.dylib" -> "/usr/lib/system/libcompiler_rt.dylib" [ltail="cluster_/usr/lib/system/libsystem_m.dylib",lhead="cluster_/usr/lib/system/libcompiler_rt.dylib"];
+	"/System/Library/Frameworks/CoreText.framework" -> "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontRegistry.dylib" [ltail="cluster_/System/Library/Frameworks/CoreText.framework"];
+	"/System/Library/Frameworks/CoreText.framework" -> "/System/Library/Frameworks/ImageIO.framework" [ltail="cluster_/System/Library/Frameworks/CoreText.framework",lhead="cluster_/System/Library/Frameworks/ImageIO.framework"];
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework" -> "/System/Library/Frameworks/ImageIO.framework" [lhead="cluster_/System/Library/Frameworks/ImageIO.framework"];
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework" -> "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework" ;
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework" -> "/System/Library/Frameworks/Foundation.framework" [lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework" -> "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework" ;
+	"/System/Library/Frameworks/AppKitScripting.framework" -> "/System/Library/Frameworks/AppKit.framework" [ltail="cluster_/System/Library/Frameworks/AppKitScripting.framework",lhead="cluster_/System/Library/Frameworks/AppKit.framework"];
+	"/System/Library/Frameworks/InputMethodKit.framework" -> "/System/Library/Frameworks/Carbon.framework" [ltail="cluster_/System/Library/Frameworks/InputMethodKit.framework",lhead="cluster_/System/Library/Frameworks/Carbon.framework"];
+	"/usr/lib/system/libsystem_platform.dylib" -> "/usr/lib/system/libcompiler_rt.dylib" [ltail="cluster_/usr/lib/system/libsystem_platform.dylib",lhead="cluster_/usr/lib/system/libcompiler_rt.dylib"];
+	"/System/Library/Frameworks/System.framework" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/System/Library/Frameworks/System.framework",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework" -> "/System/Library/Frameworks/QTKit.framework" [lhead="cluster_/System/Library/Frameworks/QTKit.framework"];
+	"/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework" -> "/usr/lib/libspindump.dylib" ;
+	"/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework" -> "/System/Library/Frameworks/QuickLook.framework" [lhead="cluster_/System/Library/Frameworks/QuickLook.framework"];
+	"/usr/lib/system/libmacho.dylib" -> "/usr/lib/system/libsystem_malloc.dylib" [ltail="cluster_/usr/lib/system/libmacho.dylib",lhead="cluster_/usr/lib/system/libsystem_malloc.dylib"];
+	"/usr/lib/system/libmacho.dylib" -> "/usr/lib/system/libcompiler_rt.dylib" [ltail="cluster_/usr/lib/system/libmacho.dylib",lhead="cluster_/usr/lib/system/libcompiler_rt.dylib"];
+	"/System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libGIF.dylib" -> "/usr/lib/libSystem.B.dylib" [lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/System/Library/Frameworks/OpenCL.framework" -> "/System/Library/Frameworks/OpenGL.framework" [ltail="cluster_/System/Library/Frameworks/OpenCL.framework",lhead="cluster_/System/Library/Frameworks/OpenGL.framework"];
+	"/System/Library/Frameworks/OpenCL.framework" -> "/System/Library/Frameworks/Foundation.framework" [ltail="cluster_/System/Library/Frameworks/OpenCL.framework",lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/Frameworks/Security.framework" -> "/usr/lib/libxar.1.dylib" [ltail="cluster_/System/Library/Frameworks/Security.framework",lhead="cluster_/usr/lib/libxar.1.dylib"];
+	"/System/Library/Frameworks/Security.framework" -> "/usr/lib/libsqlite3.dylib" [ltail="cluster_/System/Library/Frameworks/Security.framework",lhead="cluster_/usr/lib/libsqlite3.dylib"];
+	"/System/Library/Frameworks/Security.framework" -> "/usr/lib/libpam.2.dylib" [ltail="cluster_/System/Library/Frameworks/Security.framework",lhead="cluster_/usr/lib/libpam.2.dylib"];
+	"/System/Library/Frameworks/Security.framework" -> "/usr/lib/libOpenScriptingUtil.dylib" [ltail="cluster_/System/Library/Frameworks/Security.framework",lhead="cluster_/usr/lib/libOpenScriptingUtil.dylib"];
+	"/System/Library/Frameworks/Security.framework" -> "/usr/lib/libbsm.0.dylib" [ltail="cluster_/System/Library/Frameworks/Security.framework",lhead="cluster_/usr/lib/libbsm.0.dylib"];
+	"/System/Library/Frameworks/VideoToolbox.framework" -> "/System/Library/Frameworks/CoreMedia.framework" [ltail="cluster_/System/Library/Frameworks/VideoToolbox.framework",lhead="cluster_/System/Library/Frameworks/CoreMedia.framework"];
+	"/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework" -> "/usr/lib/libDiagnosticMessagesClient.dylib" [lhead="cluster_/usr/lib/libDiagnosticMessagesClient.dylib"];
+	"/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework" -> "/System/Library/Frameworks/OpenDirectory.framework/Versions/A/Frameworks/CFOpenDirectory.framework" ;
+	"/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework" -> "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework" ;
+	"/System/Library/Frameworks/CoreMediaIO.framework" -> "/System/Library/Frameworks/MediaToolbox.framework" [ltail="cluster_/System/Library/Frameworks/CoreMediaIO.framework",lhead="cluster_/System/Library/Frameworks/MediaToolbox.framework"];
+	"/System/Library/Frameworks/CoreMediaIO.framework" -> "/System/Library/Frameworks/AppKit.framework" [ltail="cluster_/System/Library/Frameworks/CoreMediaIO.framework",lhead="cluster_/System/Library/Frameworks/AppKit.framework"];
+	"/usr/lib/system/libsystem_network.dylib" -> "/usr/lib/system/libsystem_networkextension.dylib" [ltail="cluster_/usr/lib/system/libsystem_network.dylib",lhead="cluster_/usr/lib/system/libsystem_networkextension.dylib"];
+	"/usr/lib/system/libsystem_network.dylib" -> "/usr/lib/system/libsystem_coretls.dylib" [ltail="cluster_/usr/lib/system/libsystem_network.dylib",lhead="cluster_/usr/lib/system/libsystem_coretls.dylib"];
+	"/System/Library/Frameworks/Python.framework" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/System/Library/Frameworks/Python.framework",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGFXShared.dylib" -> "/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLImage.dylib" ;
+	"/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGFXShared.dylib" -> "/usr/lib/libc++.1.dylib" [lhead="cluster_/usr/lib/libc++.1.dylib"];
+	"/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGFXShared.dylib" -> "/System/Library/Frameworks/IOKit.framework" [lhead="cluster_/System/Library/Frameworks/IOKit.framework"];
+	"/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGFXShared.dylib" -> "/System/Library/Frameworks/CoreGraphics.framework" [lhead="cluster_/System/Library/Frameworks/CoreGraphics.framework"];
+	"/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGFXShared.dylib" -> "/System/Library/Frameworks/ApplicationServices.framework" [lhead="cluster_/System/Library/Frameworks/ApplicationServices.framework"];
+	"/usr/lib/libOpenScriptingUtil.dylib" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/usr/lib/libOpenScriptingUtil.dylib",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/usr/lib/libOpenScriptingUtil.dylib" -> "/System/Library/Frameworks/CoreFoundation.framework" [ltail="cluster_/usr/lib/libOpenScriptingUtil.dylib",lhead="cluster_/System/Library/Frameworks/CoreFoundation.framework"];
+	"/usr/lib/system/libsystem_info.dylib" -> "/usr/lib/system/libsystem_notify.dylib" [ltail="cluster_/usr/lib/system/libsystem_info.dylib",lhead="cluster_/usr/lib/system/libsystem_notify.dylib"];
+	"/usr/lib/system/libsystem_info.dylib" -> "/usr/lib/system/libsystem_dnssd.dylib" [ltail="cluster_/usr/lib/system/libsystem_info.dylib",lhead="cluster_/usr/lib/system/libsystem_dnssd.dylib"];
+	"/usr/lib/system/libsystem_info.dylib" -> "/usr/lib/system/libsystem_network.dylib" [ltail="cluster_/usr/lib/system/libsystem_info.dylib",lhead="cluster_/usr/lib/system/libsystem_network.dylib"];
+	"/usr/lib/system/libxpc.dylib" -> "/usr/lib/system/libsystem_asl.dylib" [ltail="cluster_/usr/lib/system/libxpc.dylib",lhead="cluster_/usr/lib/system/libsystem_asl.dylib"];
+	"/usr/lib/system/libxpc.dylib" -> "/usr/lib/system/libsystem_sandbox.dylib" [ltail="cluster_/usr/lib/system/libxpc.dylib",lhead="cluster_/usr/lib/system/libsystem_sandbox.dylib"];
+	"/usr/lib/system/libxpc.dylib" -> "/usr/lib/system/libmacho.dylib" [ltail="cluster_/usr/lib/system/libxpc.dylib",lhead="cluster_/usr/lib/system/libmacho.dylib"];
+	"/System/Library/Frameworks/FinderSync.framework" -> "@rpath/FinderSync.framework" [ltail="cluster_/System/Library/Frameworks/FinderSync.framework",lhead="cluster_@rpath/FinderSync.framework"];
+	"/System/Library/Frameworks/FinderSync.framework" -> "/System/Library/Frameworks/Cocoa.framework" [ltail="cluster_/System/Library/Frameworks/FinderSync.framework",lhead="cluster_/System/Library/Frameworks/Cocoa.framework"];
+	"/System/Library/Frameworks/QTKit.framework" -> "/System/Library/Frameworks/AVFoundation.framework" [ltail="cluster_/System/Library/Frameworks/QTKit.framework",lhead="cluster_/System/Library/Frameworks/AVFoundation.framework"];
+	"/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework" -> "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework" ;
+	"/usr/lib/system/libunwind.dylib" -> "/usr/lib/system/libkeymgr.dylib" [ltail="cluster_/usr/lib/system/libunwind.dylib",lhead="cluster_/usr/lib/system/libkeymgr.dylib"];
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework" -> "/usr/lib/libcups.2.dylib" [lhead="cluster_/usr/lib/libcups.2.dylib"];
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework" -> "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework" ;
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework" -> "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework" ;
+	"/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/ImageKit.framework" -> "/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuartzFilters.framework" ;
+	"/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/ImageKit.framework" -> "/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuartzComposer.framework" ;
+	"/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/ImageKit.framework" -> "/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/PDFKit.framework" ;
+	"/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/ImageKit.framework" -> "/System/Library/Frameworks/ImageCaptureCore.framework" [lhead="cluster_/System/Library/Frameworks/ImageCaptureCore.framework"];
+	"/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/ImageKit.framework" -> "/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework" ;
+	"/System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebCore.framework" -> "/System/Library/Frameworks/Carbon.framework" [lhead="cluster_/System/Library/Frameworks/Carbon.framework"];
+	"/System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebCore.framework" -> "/System/Library/Frameworks/JavaScriptCore.framework" [lhead="cluster_/System/Library/Frameworks/JavaScriptCore.framework"];
+	"/System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebCore.framework" -> "/System/Library/Frameworks/Cocoa.framework" [lhead="cluster_/System/Library/Frameworks/Cocoa.framework"];
+	"/System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebCore.framework" -> "/System/Library/Frameworks/CoreVideo.framework" [lhead="cluster_/System/Library/Frameworks/CoreVideo.framework"];
+	"/System/Library/Frameworks/MultipeerConnectivity.framework" -> "/System/Library/Frameworks/Foundation.framework" [ltail="cluster_/System/Library/Frameworks/MultipeerConnectivity.framework",lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/Frameworks/ICADevices.framework" -> "/System/Library/Frameworks/Carbon.framework" [ltail="cluster_/System/Library/Frameworks/ICADevices.framework",lhead="cluster_/System/Library/Frameworks/Carbon.framework"];
+	"/System/Library/Frameworks/ICADevices.framework" -> "/System/Library/Frameworks/Cocoa.framework" [ltail="cluster_/System/Library/Frameworks/ICADevices.framework",lhead="cluster_/System/Library/Frameworks/Cocoa.framework"];
+	"/System/Library/Frameworks/ICADevices.framework" -> "/System/Library/Frameworks/QuickLook.framework" [ltail="cluster_/System/Library/Frameworks/ICADevices.framework",lhead="cluster_/System/Library/Frameworks/QuickLook.framework"];
+	"/System/Library/Frameworks/ICADevices.framework" -> "/System/Library/Frameworks/AVFoundation.framework" [ltail="cluster_/System/Library/Frameworks/ICADevices.framework",lhead="cluster_/System/Library/Frameworks/AVFoundation.framework"];
+	"/System/Library/Frameworks/ICADevices.framework" -> "/System/Library/Frameworks/IOBluetooth.framework" [ltail="cluster_/System/Library/Frameworks/ICADevices.framework",lhead="cluster_/System/Library/Frameworks/IOBluetooth.framework"];
+	"/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework" -> "/usr/lib/libSystem.B.dylib" [lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework" -> "/System/Library/Frameworks/CoreFoundation.framework" [lhead="cluster_/System/Library/Frameworks/CoreFoundation.framework"];
+	"/System/Library/Frameworks/AppleScriptObjC.framework" -> "/System/Library/Frameworks/Carbon.framework" [ltail="cluster_/System/Library/Frameworks/AppleScriptObjC.framework",lhead="cluster_/System/Library/Frameworks/Carbon.framework"];
+	"/System/Library/Frameworks/AppleScriptObjC.framework" -> "/System/Library/Frameworks/Foundation.framework" [ltail="cluster_/System/Library/Frameworks/AppleScriptObjC.framework",lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/Frameworks/AppleScriptObjC.framework" -> "/usr/lib/libffi.dylib" [ltail="cluster_/System/Library/Frameworks/AppleScriptObjC.framework",lhead="cluster_/usr/lib/libffi.dylib"];
+	"/System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libPng.dylib" -> "/usr/lib/libz.1.dylib" [lhead="cluster_/usr/lib/libz.1.dylib"];
+	"/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuartzComposer.framework" -> "/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLImage.dylib" ;
+	"/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuartzComposer.framework" -> "/System/Library/Frameworks/OpenCL.framework" [lhead="cluster_/System/Library/Frameworks/OpenCL.framework"];
+	"/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuartzComposer.framework" -> "/System/Library/Frameworks/AppKit.framework" [lhead="cluster_/System/Library/Frameworks/AppKit.framework"];
+	"/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuartzComposer.framework" -> "/System/Library/Frameworks/QTKit.framework" [lhead="cluster_/System/Library/Frameworks/QTKit.framework"];
+	"/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuartzComposer.framework" -> "/System/Library/Frameworks/JavaScriptCore.framework" [lhead="cluster_/System/Library/Frameworks/JavaScriptCore.framework"];
+	"/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuartzComposer.framework" -> "/System/Library/Frameworks/CoreVideo.framework" [lhead="cluster_/System/Library/Frameworks/CoreVideo.framework"];
+	"/System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libJPEG.dylib" -> "/usr/lib/libSystem.B.dylib" [lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/System/Library/Frameworks/JavaFrameEmbedding.framework" -> "/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework" [ltail="cluster_/System/Library/Frameworks/JavaFrameEmbedding.framework"];
+	"/System/Library/Frameworks/LatentSemanticMapping.framework" -> "/System/Library/Frameworks/Accelerate.framework" [ltail="cluster_/System/Library/Frameworks/LatentSemanticMapping.framework",lhead="cluster_/System/Library/Frameworks/Accelerate.framework"];
+	"/System/Library/Frameworks/LatentSemanticMapping.framework" -> "/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SpeechRecognition.framework" [ltail="cluster_/System/Library/Frameworks/LatentSemanticMapping.framework"];
+	"/System/Library/Frameworks/SecurityInterface.framework" -> "/System/Library/Frameworks/SecurityFoundation.framework" [ltail="cluster_/System/Library/Frameworks/SecurityInterface.framework",lhead="cluster_/System/Library/Frameworks/SecurityFoundation.framework"];
+	"/System/Library/Frameworks/SecurityInterface.framework" -> "/System/Library/Frameworks/AppKit.framework" [ltail="cluster_/System/Library/Frameworks/SecurityInterface.framework",lhead="cluster_/System/Library/Frameworks/AppKit.framework"];
+	"/System/Library/Frameworks/GLKit.framework" -> "/System/Library/Frameworks/AppKit.framework" [ltail="cluster_/System/Library/Frameworks/GLKit.framework",lhead="cluster_/System/Library/Frameworks/AppKit.framework"];
+	"/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLinearAlgebra.dylib" -> "/usr/lib/libobjc.A.dylib" [lhead="cluster_/usr/lib/libobjc.A.dylib"];
+	"/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLinearAlgebra.dylib" -> "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib" ;
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SpeechRecognition.framework" -> "/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework" ;
+	"/usr/lib/system/libsystem_asl.dylib" -> "/usr/lib/system/libsystem_info.dylib" [ltail="cluster_/usr/lib/system/libsystem_asl.dylib",lhead="cluster_/usr/lib/system/libsystem_info.dylib"];
+	"/usr/lib/system/libsystem_asl.dylib" -> "/usr/lib/system/libsystem_trace.dylib" [ltail="cluster_/usr/lib/system/libsystem_asl.dylib",lhead="cluster_/usr/lib/system/libsystem_trace.dylib"];
+	"/usr/lib/libcmph.dylib" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/usr/lib/libcmph.dylib",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/usr/lib/libxml2.2.dylib" -> "/usr/lib/libz.1.dylib" [ltail="cluster_/usr/lib/libxml2.2.dylib",lhead="cluster_/usr/lib/libz.1.dylib"];
+	"/usr/lib/libxml2.2.dylib" -> "/usr/lib/libicucore.A.dylib" [ltail="cluster_/usr/lib/libxml2.2.dylib",lhead="cluster_/usr/lib/libicucore.A.dylib"];
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontRegistry.dylib" -> "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontParser.dylib" ;
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontRegistry.dylib" -> "/System/Library/Frameworks/CoreText.framework" [lhead="cluster_/System/Library/Frameworks/CoreText.framework"];
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontRegistry.dylib" -> "/System/Library/Frameworks/CoreFoundation.framework" [lhead="cluster_/System/Library/Frameworks/CoreFoundation.framework"];
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontRegistry.dylib" -> "/System/Library/Frameworks/CoreGraphics.framework" [lhead="cluster_/System/Library/Frameworks/CoreGraphics.framework"];
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontRegistry.dylib" -> "/System/Library/Frameworks/ApplicationServices.framework" [lhead="cluster_/System/Library/Frameworks/ApplicationServices.framework"];
+	"/System/Library/Frameworks/MapKit.framework" -> "/System/Library/Frameworks/CoreWLAN.framework" [ltail="cluster_/System/Library/Frameworks/MapKit.framework",lhead="cluster_/System/Library/Frameworks/CoreWLAN.framework"];
+	"/System/Library/Frameworks/MapKit.framework" -> "/System/Library/Frameworks/AddressBook.framework" [ltail="cluster_/System/Library/Frameworks/MapKit.framework",lhead="cluster_/System/Library/Frameworks/AddressBook.framework"];
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Help.framework" -> "/System/Library/Frameworks/ApplicationServices.framework" [lhead="cluster_/System/Library/Frameworks/ApplicationServices.framework"];
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Help.framework" -> "/usr/lib/libc++.1.dylib" [lhead="cluster_/usr/lib/libc++.1.dylib"];
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Help.framework" -> "/System/Library/Frameworks/CoreFoundation.framework" [lhead="cluster_/System/Library/Frameworks/CoreFoundation.framework"];
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Help.framework" -> "/System/Library/Frameworks/CoreServices.framework" [lhead="cluster_/System/Library/Frameworks/CoreServices.framework"];
+	"/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib" -> "/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib" ;
+	"/System/Library/Frameworks/DVDPlayback.framework" -> "/System/Library/Frameworks/AudioUnit.framework" [ltail="cluster_/System/Library/Frameworks/DVDPlayback.framework",lhead="cluster_/System/Library/Frameworks/AudioUnit.framework"];
+	"/System/Library/Frameworks/DVDPlayback.framework" -> "/System/Library/Frameworks/MediaAccessibility.framework" [ltail="cluster_/System/Library/Frameworks/DVDPlayback.framework",lhead="cluster_/System/Library/Frameworks/MediaAccessibility.framework"];
+	"/System/Library/Frameworks/DVDPlayback.framework" -> "/System/Library/Frameworks/CoreText.framework" [ltail="cluster_/System/Library/Frameworks/DVDPlayback.framework",lhead="cluster_/System/Library/Frameworks/CoreText.framework"];
+	"/System/Library/Frameworks/DVDPlayback.framework" -> "/System/Library/Frameworks/Foundation.framework" [ltail="cluster_/System/Library/Frameworks/DVDPlayback.framework",lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/Frameworks/DVDPlayback.framework" -> "/usr/lib/libDiagnosticMessagesClient.dylib" [ltail="cluster_/System/Library/Frameworks/DVDPlayback.framework",lhead="cluster_/usr/lib/libDiagnosticMessagesClient.dylib"];
+	"/usr/lib/libicucore.A.dylib" -> "/usr/lib/libc++.1.dylib" [ltail="cluster_/usr/lib/libicucore.A.dylib",lhead="cluster_/usr/lib/libc++.1.dylib"];
+	"/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework" -> "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework" ;
+	"/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework" -> "/System/Library/Frameworks/Foundation.framework" [lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework" -> "/usr/lib/libxslt.1.dylib" [lhead="cluster_/usr/lib/libxslt.1.dylib"];
+	"/System/Library/Frameworks/DiskArbitration.framework" -> "/System/Library/Frameworks/Security.framework" [ltail="cluster_/System/Library/Frameworks/DiskArbitration.framework",lhead="cluster_/System/Library/Frameworks/Security.framework"];
+	"/System/Library/Frameworks/DiskArbitration.framework" -> "/System/Library/Frameworks/IOKit.framework" [ltail="cluster_/System/Library/Frameworks/DiskArbitration.framework",lhead="cluster_/System/Library/Frameworks/IOKit.framework"];
+	"/System/Library/Frameworks/CoreFoundation.framework" -> "/usr/lib/libz.1.dylib" [ltail="cluster_/System/Library/Frameworks/CoreFoundation.framework",lhead="cluster_/usr/lib/libz.1.dylib"];
+	"/System/Library/Frameworks/CoreFoundation.framework" -> "/usr/lib/libobjc.A.dylib" [ltail="cluster_/System/Library/Frameworks/CoreFoundation.framework",lhead="cluster_/usr/lib/libobjc.A.dylib"];
+	"/System/Library/Frameworks/CoreFoundation.framework" -> "/usr/lib/libicucore.A.dylib" [ltail="cluster_/System/Library/Frameworks/CoreFoundation.framework",lhead="cluster_/usr/lib/libicucore.A.dylib"];
+	"/usr/lib/system/libsystem_secinit.dylib" -> "/usr/lib/system/libsystem_pthread.dylib" [ltail="cluster_/usr/lib/system/libsystem_secinit.dylib",lhead="cluster_/usr/lib/system/libsystem_pthread.dylib"];
+	"/usr/lib/system/libsystem_secinit.dylib" -> "/usr/lib/system/liblaunch.dylib" [ltail="cluster_/usr/lib/system/libsystem_secinit.dylib",lhead="cluster_/usr/lib/system/liblaunch.dylib"];
+	"/usr/lib/system/libsystem_secinit.dylib" -> "/usr/lib/system/libdispatch.dylib" [ltail="cluster_/usr/lib/system/libsystem_secinit.dylib",lhead="cluster_/usr/lib/system/libdispatch.dylib"];
+	"/usr/lib/libexpat.1.dylib" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/usr/lib/libexpat.1.dylib",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/usr/lib/libstdc++.6.dylib" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/usr/lib/libstdc++.6.dylib",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/usr/lib/libstdc++.6.dylib" -> "/usr/lib/libc++abi.dylib" [ltail="cluster_/usr/lib/libstdc++.6.dylib"];
+	"/System/Library/Frameworks/Scripting.framework" -> "/System/Library/Frameworks/Foundation.framework" [ltail="cluster_/System/Library/Frameworks/Scripting.framework",lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/Frameworks/MediaLibrary.framework" -> "/System/Library/Frameworks/Foundation.framework" [ltail="cluster_/System/Library/Frameworks/MediaLibrary.framework",lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/usr/lib/libScreenReader.dylib" -> "/System/Library/Frameworks/ApplicationServices.framework" [ltail="cluster_/usr/lib/libScreenReader.dylib",lhead="cluster_/System/Library/Frameworks/ApplicationServices.framework"];
+	"/usr/lib/libScreenReader.dylib" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/usr/lib/libScreenReader.dylib",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/usr/lib/libScreenReader.dylib" -> "/System/Library/Frameworks/AudioToolbox.framework" [ltail="cluster_/usr/lib/libScreenReader.dylib",lhead="cluster_/System/Library/Frameworks/AudioToolbox.framework"];
+	"/usr/lib/libScreenReader.dylib" -> "/System/Library/Frameworks/CoreFoundation.framework" [ltail="cluster_/usr/lib/libScreenReader.dylib",lhead="cluster_/System/Library/Frameworks/CoreFoundation.framework"];
+	"/usr/lib/libffi.dylib" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/usr/lib/libffi.dylib",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/System/Library/Frameworks/VideoDecodeAcceleration.framework" -> "/System/Library/Frameworks/VideoToolbox.framework" [ltail="cluster_/System/Library/Frameworks/VideoDecodeAcceleration.framework",lhead="cluster_/System/Library/Frameworks/VideoToolbox.framework"];
+	"/usr/lib/system/libcache.dylib" -> "/usr/lib/system/libsystem_pthread.dylib" [ltail="cluster_/usr/lib/system/libcache.dylib",lhead="cluster_/usr/lib/system/libsystem_pthread.dylib"];
+	"/usr/lib/system/libcache.dylib" -> "/usr/lib/system/libdispatch.dylib" [ltail="cluster_/usr/lib/system/libcache.dylib",lhead="cluster_/usr/lib/system/libdispatch.dylib"];
+	"/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib" -> "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib" ;
+	"/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib" -> "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework" ;
+	"/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib" -> "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib" ;
+	"/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib" -> "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib" ;
+	"/System/Library/CoreServices/ZoomWindow.app/Contents/Frameworks/ZoomWindowSupport.framework" -> "/System/Library/Frameworks/ApplicationServices.framework" [ltail="cluster_/System/Library/CoreServices/ZoomWindow.app/Contents/Frameworks/ZoomWindowSupport.framework",lhead="cluster_/System/Library/Frameworks/ApplicationServices.framework"];
+	"/System/Library/CoreServices/ZoomWindow.app/Contents/Frameworks/ZoomWindowSupport.framework" -> "/System/Library/Frameworks/PreferencePanes.framework" [ltail="cluster_/System/Library/CoreServices/ZoomWindow.app/Contents/Frameworks/ZoomWindowSupport.framework",lhead="cluster_/System/Library/Frameworks/PreferencePanes.framework"];
+	"/System/Library/CoreServices/ZoomWindow.app/Contents/Frameworks/ZoomWindowSupport.framework" -> "/System/Library/Frameworks/Foundation.framework" [ltail="cluster_/System/Library/CoreServices/ZoomWindow.app/Contents/Frameworks/ZoomWindowSupport.framework",lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/CoreServices/ZoomWindow.app/Contents/Frameworks/ZoomWindowSupport.framework" -> "/System/Library/Frameworks/CoreGraphics.framework" [ltail="cluster_/System/Library/CoreServices/ZoomWindow.app/Contents/Frameworks/ZoomWindowSupport.framework",lhead="cluster_/System/Library/Frameworks/CoreGraphics.framework"];
+	"/System/Library/Frameworks/CoreWLAN.framework" -> "/System/Library/Frameworks/SecurityFoundation.framework" [ltail="cluster_/System/Library/Frameworks/CoreWLAN.framework",lhead="cluster_/System/Library/Frameworks/SecurityFoundation.framework"];
+	"/System/Library/Frameworks/SyncServices.framework" -> "/System/Library/Frameworks/Carbon.framework" [ltail="cluster_/System/Library/Frameworks/SyncServices.framework",lhead="cluster_/System/Library/Frameworks/Carbon.framework"];
+	"/System/Library/Frameworks/SyncServices.framework" -> "/System/Library/Frameworks/AppKit.framework" [ltail="cluster_/System/Library/Frameworks/SyncServices.framework",lhead="cluster_/System/Library/Frameworks/AppKit.framework"];
+	"/System/Library/Frameworks/SyncServices.framework" -> "/usr/lib/libbz2.1.0.dylib" [ltail="cluster_/System/Library/Frameworks/SyncServices.framework",lhead="cluster_/usr/lib/libbz2.1.0.dylib"];
+	"/usr/lib/libDiagnosticMessagesClient.dylib" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/usr/lib/libDiagnosticMessagesClient.dylib",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libTIFF.dylib" -> "/usr/lib/libz.1.dylib" [lhead="cluster_/usr/lib/libz.1.dylib"];
+	"/System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libTIFF.dylib" -> "/System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libJPEG.dylib" ;
+	"/usr/lib/libodfde.dylib" -> "/System/Library/Frameworks/CoreFoundation.framework" [ltail="cluster_/usr/lib/libodfde.dylib",lhead="cluster_/System/Library/Frameworks/CoreFoundation.framework"];
+	"/usr/lib/libodfde.dylib" -> "/System/Library/Frameworks/Security.framework" [ltail="cluster_/usr/lib/libodfde.dylib",lhead="cluster_/System/Library/Frameworks/Security.framework"];
+	"/usr/lib/libodfde.dylib" -> "/usr/lib/libCoreStorage.dylib" [ltail="cluster_/usr/lib/libodfde.dylib",lhead="cluster_/usr/lib/libCoreStorage.dylib"];
+	"/usr/lib/libodfde.dylib" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/usr/lib/libodfde.dylib",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/System/Library/Frameworks/OSAKit.framework" -> "/System/Library/Frameworks/Cocoa.framework" [ltail="cluster_/System/Library/Frameworks/OSAKit.framework",lhead="cluster_/System/Library/Frameworks/Cocoa.framework"];
+	"/System/Library/Frameworks/OSAKit.framework" -> "/System/Library/Frameworks/Carbon.framework" [ltail="cluster_/System/Library/Frameworks/OSAKit.framework",lhead="cluster_/System/Library/Frameworks/Carbon.framework"];
+	"/System/Library/Frameworks/OSAKit.framework" -> "/usr/lib/libexslt.0.dylib" [ltail="cluster_/System/Library/Frameworks/OSAKit.framework",lhead="cluster_/usr/lib/libexslt.0.dylib"];
+	"/System/Library/Frameworks/OSAKit.framework" -> "/System/Library/Frameworks/CoreGraphics.framework" [ltail="cluster_/System/Library/Frameworks/OSAKit.framework",lhead="cluster_/System/Library/Frameworks/CoreGraphics.framework"];
+	"/System/Library/Frameworks/OSAKit.framework" -> "/System/Library/Frameworks/ApplicationServices.framework" [ltail="cluster_/System/Library/Frameworks/OSAKit.framework",lhead="cluster_/System/Library/Frameworks/ApplicationServices.framework"];
+	"/usr/lib/libcups.2.dylib" -> "/System/Library/Frameworks/GSS.framework" [ltail="cluster_/usr/lib/libcups.2.dylib",lhead="cluster_/System/Library/Frameworks/GSS.framework"];
+	"/usr/lib/libcups.2.dylib" -> "/System/Library/Frameworks/Kerberos.framework" [ltail="cluster_/usr/lib/libcups.2.dylib",lhead="cluster_/System/Library/Frameworks/Kerberos.framework"];
+	"/usr/lib/libcups.2.dylib" -> "/usr/lib/libiconv.2.dylib" [ltail="cluster_/usr/lib/libcups.2.dylib",lhead="cluster_/usr/lib/libiconv.2.dylib"];
+	"/usr/lib/libcups.2.dylib" -> "/usr/lib/libresolv.9.dylib" [ltail="cluster_/usr/lib/libcups.2.dylib",lhead="cluster_/usr/lib/libresolv.9.dylib"];
+	"/System/Library/Frameworks/AudioUnit.framework" -> "/System/Library/Frameworks/AudioToolbox.framework" [ltail="cluster_/System/Library/Frameworks/AudioUnit.framework",lhead="cluster_/System/Library/Frameworks/AudioToolbox.framework"];
+	"/usr/lib/libktrace.dylib" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/usr/lib/libktrace.dylib",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/usr/lib/libktrace.dylib" -> "/System/Library/Frameworks/CoreFoundation.framework" [ltail="cluster_/usr/lib/libktrace.dylib",lhead="cluster_/System/Library/Frameworks/CoreFoundation.framework"];
+	"/System/Library/Frameworks/CoreMIDIServer.framework" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/System/Library/Frameworks/CoreMIDIServer.framework",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/System/Library/Frameworks/CoreMIDIServer.framework" -> "/System/Library/Frameworks/CoreMIDI.framework" [ltail="cluster_/System/Library/Frameworks/CoreMIDIServer.framework",lhead="cluster_/System/Library/Frameworks/CoreMIDI.framework"];
+	"/System/Library/Frameworks/SecurityFoundation.framework" -> "/System/Library/Frameworks/Foundation.framework" [ltail="cluster_/System/Library/Frameworks/SecurityFoundation.framework",lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/Frameworks/FWAUserLib.framework" -> "/usr/lib/libc++.1.dylib" [ltail="cluster_/System/Library/Frameworks/FWAUserLib.framework",lhead="cluster_/usr/lib/libc++.1.dylib"];
+	"/System/Library/Frameworks/FWAUserLib.framework" -> "/System/Library/Frameworks/IOKit.framework" [ltail="cluster_/System/Library/Frameworks/FWAUserLib.framework",lhead="cluster_/System/Library/Frameworks/IOKit.framework"];
+	"/usr/lib/libCRFSuite.dylib" -> "/usr/lib/libz.1.dylib" [ltail="cluster_/usr/lib/libCRFSuite.dylib",lhead="cluster_/usr/lib/libz.1.dylib"];
+	"/usr/lib/libCRFSuite.dylib" -> "/usr/lib/libc++.1.dylib" [ltail="cluster_/usr/lib/libCRFSuite.dylib",lhead="cluster_/usr/lib/libc++.1.dylib"];
+	"/System/Library/Frameworks/vmnet.framework" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/System/Library/Frameworks/vmnet.framework",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/System/Library/Frameworks/vmnet.framework" -> "/System/Library/Frameworks/SystemConfiguration.framework" [ltail="cluster_/System/Library/Frameworks/vmnet.framework",lhead="cluster_/System/Library/Frameworks/SystemConfiguration.framework"];
+	"/usr/lib/system/libsystem_blocks.dylib" -> "/usr/lib/system/libdyld.dylib" [ltail="cluster_/usr/lib/system/libsystem_blocks.dylib",lhead="cluster_/usr/lib/system/libdyld.dylib"];
+	"/usr/lib/system/libsystem_blocks.dylib" -> "/usr/lib/system/libsystem_c.dylib" [ltail="cluster_/usr/lib/system/libsystem_blocks.dylib",lhead="cluster_/usr/lib/system/libsystem_c.dylib"];
+	"/usr/lib/system/libsystem_blocks.dylib" -> "/usr/lib/system/libsystem_malloc.dylib" [ltail="cluster_/usr/lib/system/libsystem_blocks.dylib",lhead="cluster_/usr/lib/system/libsystem_malloc.dylib"];
+	"/usr/lib/system/libsystem_configuration.dylib" -> "/usr/lib/system/libsystem_notify.dylib" [ltail="cluster_/usr/lib/system/libsystem_configuration.dylib",lhead="cluster_/usr/lib/system/libsystem_notify.dylib"];
+	"/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework" -> "/System/Library/Frameworks/NetFS.framework" [lhead="cluster_/System/Library/Frameworks/NetFS.framework"];
+	"/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework" -> "/System/Library/Frameworks/CFNetwork.framework" [lhead="cluster_/System/Library/Frameworks/CFNetwork.framework"];
+	"/usr/lib/libc++.1.dylib" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/usr/lib/libc++.1.dylib",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/usr/lib/libc++.1.dylib" -> "/usr/lib/libc++abi.dylib" [ltail="cluster_/usr/lib/libc++.1.dylib"];
+	"/System/Library/Frameworks/CalendarStore.framework" -> "/usr/lib/libsqlite3.dylib" [ltail="cluster_/System/Library/Frameworks/CalendarStore.framework",lhead="cluster_/usr/lib/libsqlite3.dylib"];
+	"/System/Library/Frameworks/CalendarStore.framework" -> "/System/Library/Frameworks/Foundation.framework" [ltail="cluster_/System/Library/Frameworks/CalendarStore.framework",lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/Frameworks/IOBluetoothUI.framework" -> "/System/Library/Frameworks/ApplicationServices.framework" [ltail="cluster_/System/Library/Frameworks/IOBluetoothUI.framework",lhead="cluster_/System/Library/Frameworks/ApplicationServices.framework"];
+	"/System/Library/Frameworks/IOBluetoothUI.framework" -> "/System/Library/Frameworks/Cocoa.framework" [ltail="cluster_/System/Library/Frameworks/IOBluetoothUI.framework",lhead="cluster_/System/Library/Frameworks/Cocoa.framework"];
+	"/System/Library/Frameworks/IOBluetoothUI.framework" -> "/System/Library/Frameworks/IOBluetooth.framework" [ltail="cluster_/System/Library/Frameworks/IOBluetoothUI.framework",lhead="cluster_/System/Library/Frameworks/IOBluetooth.framework"];
+	"/System/Library/Frameworks/IOBluetoothUI.framework" -> "/System/Library/Frameworks/CoreGraphics.framework" [ltail="cluster_/System/Library/Frameworks/IOBluetoothUI.framework",lhead="cluster_/System/Library/Frameworks/CoreGraphics.framework"];
+	"/System/Library/Frameworks/Message.framework" -> "/usr/lib/libobjc.A.dylib" [ltail="cluster_/System/Library/Frameworks/Message.framework",lhead="cluster_/usr/lib/libobjc.A.dylib"];
+	"/System/Library/Frameworks/Message.framework" -> "/System/Library/Frameworks/Foundation.framework" [ltail="cluster_/System/Library/Frameworks/Message.framework",lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontParser.dylib" -> "/System/Library/Frameworks/Foundation.framework" [lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/NavigationServices.framework" -> "/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CarbonSound.framework" ;
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/NavigationServices.framework" -> "/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SecurityHI.framework" ;
+	"/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework" -> "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework" ;
+	"/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework" -> "/System/Library/Frameworks/ServiceManagement.framework" [lhead="cluster_/System/Library/Frameworks/ServiceManagement.framework"];
+	"/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework" -> "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework" ;
+	"/usr/lib/libheimdal-asn1.dylib" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/usr/lib/libheimdal-asn1.dylib",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/usr/lib/libtidy.A.dylib" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/usr/lib/libtidy.A.dylib",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/System/Library/Frameworks/IOKit.framework" -> "/System/Library/Frameworks/CoreFoundation.framework" [ltail="cluster_/System/Library/Frameworks/IOKit.framework",lhead="cluster_/System/Library/Frameworks/CoreFoundation.framework"];
+	"/System/Library/Frameworks/IOKit.framework" -> "/usr/lib/system/libkxld.dylib" [ltail="cluster_/System/Library/Frameworks/IOKit.framework",lhead="cluster_/usr/lib/system/libkxld.dylib"];
+	"/System/Library/Frameworks/IOKit.framework" -> "/usr/lib/libbsm.0.dylib" [ltail="cluster_/System/Library/Frameworks/IOKit.framework",lhead="cluster_/usr/lib/libbsm.0.dylib"];
+	"/usr/lib/libcsfde.dylib" -> "/usr/lib/libCoreStorage.dylib" [ltail="cluster_/usr/lib/libcsfde.dylib",lhead="cluster_/usr/lib/libCoreStorage.dylib"];
+	"/usr/lib/libcsfde.dylib" -> "/System/Library/Frameworks/CFNetwork.framework" [ltail="cluster_/usr/lib/libcsfde.dylib",lhead="cluster_/System/Library/Frameworks/CFNetwork.framework"];
+	"/usr/lib/libarchive.2.dylib" -> "/usr/lib/libxml2.2.dylib" [ltail="cluster_/usr/lib/libarchive.2.dylib",lhead="cluster_/usr/lib/libxml2.2.dylib"];
+	"/usr/lib/libarchive.2.dylib" -> "/usr/lib/liblzma.5.dylib" [ltail="cluster_/usr/lib/libarchive.2.dylib",lhead="cluster_/usr/lib/liblzma.5.dylib"];
+	"/usr/lib/libarchive.2.dylib" -> "/usr/lib/libbz2.1.0.dylib" [ltail="cluster_/usr/lib/libarchive.2.dylib",lhead="cluster_/usr/lib/libbz2.1.0.dylib"];
+	"/usr/lib/libcrypto.0.9.8.dylib" -> "/usr/lib/libz.1.dylib" [ltail="cluster_/usr/lib/libcrypto.0.9.8.dylib",lhead="cluster_/usr/lib/libz.1.dylib"];
+	"/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/libruby.2.0.0.dylib" -> "/usr/lib/libSystem.B.dylib" [lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/System/Library/Frameworks/Quartz.framework" -> "/System/Library/Frameworks/QuartzCore.framework" [ltail="cluster_/System/Library/Frameworks/Quartz.framework",lhead="cluster_/System/Library/Frameworks/QuartzCore.framework"];
+	"/System/Library/Frameworks/Quartz.framework" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/System/Library/Frameworks/Quartz.framework",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libJP2.dylib" -> "/System/Library/Frameworks/CoreFoundation.framework" [lhead="cluster_/System/Library/Frameworks/CoreFoundation.framework"];
+	"/System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libJP2.dylib" -> "/usr/lib/libc++.1.dylib" [lhead="cluster_/usr/lib/libc++.1.dylib"];
+	"/System/Library/Frameworks/StoreKit.framework" -> "/System/Library/Frameworks/CoreFoundation.framework" [ltail="cluster_/System/Library/Frameworks/StoreKit.framework",lhead="cluster_/System/Library/Frameworks/CoreFoundation.framework"];
+	"/System/Library/Frameworks/StoreKit.framework" -> "/System/Library/Frameworks/Security.framework" [ltail="cluster_/System/Library/Frameworks/StoreKit.framework",lhead="cluster_/System/Library/Frameworks/Security.framework"];
+	"/System/Library/Frameworks/StoreKit.framework" -> "/System/Library/Frameworks/AppKit.framework" [ltail="cluster_/System/Library/Frameworks/StoreKit.framework",lhead="cluster_/System/Library/Frameworks/AppKit.framework"];
+	"/System/Library/Frameworks/StoreKit.framework" -> "/System/Library/Frameworks/Foundation.framework" [ltail="cluster_/System/Library/Frameworks/StoreKit.framework",lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/usr/lib/system/libsystem_coreservices.dylib" -> "/usr/lib/system/libsystem_info.dylib" [ltail="cluster_/usr/lib/system/libsystem_coreservices.dylib",lhead="cluster_/usr/lib/system/libsystem_info.dylib"];
+	"/System/Library/Frameworks/CoreBluetooth.framework" -> "/System/Library/Frameworks/Foundation.framework" [ltail="cluster_/System/Library/Frameworks/CoreBluetooth.framework",lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework" -> "/usr/lib/libc++.1.dylib" [lhead="cluster_/usr/lib/libc++.1.dylib"];
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework" -> "/System/Library/Frameworks/IOKit.framework" [lhead="cluster_/System/Library/Frameworks/IOKit.framework"];
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework" -> "/System/Library/Frameworks/CoreGraphics.framework" [lhead="cluster_/System/Library/Frameworks/CoreGraphics.framework"];
+	"/System/Library/Frameworks/GLUT.framework" -> "/System/Library/Frameworks/IOKit.framework" [ltail="cluster_/System/Library/Frameworks/GLUT.framework",lhead="cluster_/System/Library/Frameworks/IOKit.framework"];
+	"/System/Library/Frameworks/GLUT.framework" -> "/System/Library/Frameworks/CoreGraphics.framework" [ltail="cluster_/System/Library/Frameworks/GLUT.framework",lhead="cluster_/System/Library/Frameworks/CoreGraphics.framework"];
+	"/System/Library/Frameworks/GLUT.framework" -> "/System/Library/Frameworks/ApplicationServices.framework" [ltail="cluster_/System/Library/Frameworks/GLUT.framework",lhead="cluster_/System/Library/Frameworks/ApplicationServices.framework"];
+	"/System/Library/Frameworks/GLUT.framework" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/System/Library/Frameworks/GLUT.framework",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/System/Library/Frameworks/GLUT.framework" -> "/System/Library/Frameworks/Foundation.framework" [ltail="cluster_/System/Library/Frameworks/GLUT.framework",lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/Frameworks/GLUT.framework" -> "/System/Library/Frameworks/AppKit.framework" [ltail="cluster_/System/Library/Frameworks/GLUT.framework",lhead="cluster_/System/Library/Frameworks/AppKit.framework"];
+	"/usr/lib/libpcap.A.dylib" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/usr/lib/libpcap.A.dylib",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/OpenScripting.framework" -> "/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework" ;
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/OpenScripting.framework" -> "/System/Library/Frameworks/ApplicationServices.framework" [lhead="cluster_/System/Library/Frameworks/ApplicationServices.framework"];
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/OpenScripting.framework" -> "/usr/lib/libc++.1.dylib" [lhead="cluster_/usr/lib/libc++.1.dylib"];
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/OpenScripting.framework" -> "/System/Library/Frameworks/Foundation.framework" [lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/OpenScripting.framework" -> "/usr/lib/libxml2.2.dylib" [lhead="cluster_/usr/lib/libxml2.2.dylib"];
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/OpenScripting.framework" -> "/System/Library/Frameworks/Security.framework" [lhead="cluster_/System/Library/Frameworks/Security.framework"];
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/OpenScripting.framework" -> "/System/Library/Frameworks/CoreFoundation.framework" [lhead="cluster_/System/Library/Frameworks/CoreFoundation.framework"];
+	"/usr/lib/libpam.2.dylib" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/usr/lib/libpam.2.dylib",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/usr/lib/libobjc.A.dylib" -> "/usr/lib/libauto.dylib" [ltail="cluster_/usr/lib/libobjc.A.dylib",lhead="cluster_/usr/lib/libauto.dylib"];
+	"/System/Library/Frameworks/CFNetwork.framework" -> "/usr/lib/libxml2.2.dylib" [ltail="cluster_/System/Library/Frameworks/CFNetwork.framework",lhead="cluster_/usr/lib/libxml2.2.dylib"];
+	"/System/Library/Frameworks/CFNetwork.framework" -> "/System/Library/Frameworks/Security.framework" [ltail="cluster_/System/Library/Frameworks/CFNetwork.framework",lhead="cluster_/System/Library/Frameworks/Security.framework"];
+	"/System/Library/Frameworks/CFNetwork.framework" -> "/System/Library/Frameworks/SystemConfiguration.framework" [ltail="cluster_/System/Library/Frameworks/CFNetwork.framework",lhead="cluster_/System/Library/Frameworks/SystemConfiguration.framework"];
+	"/System/Library/Frameworks/CFNetwork.framework" -> "/System/Library/Frameworks/IOKit.framework" [ltail="cluster_/System/Library/Frameworks/CFNetwork.framework",lhead="cluster_/System/Library/Frameworks/IOKit.framework"];
+	"/usr/lib/libextension.dylib" -> "/System/Library/Frameworks/Foundation.framework" [ltail="cluster_/usr/lib/libextension.dylib",lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/Frameworks/CoreMIDI.framework" -> "/usr/lib/libc++.1.dylib" [ltail="cluster_/System/Library/Frameworks/CoreMIDI.framework",lhead="cluster_/usr/lib/libc++.1.dylib"];
+	"/System/Library/Frameworks/CoreMIDI.framework" -> "/usr/lib/libexpat.1.dylib" [ltail="cluster_/System/Library/Frameworks/CoreMIDI.framework",lhead="cluster_/usr/lib/libexpat.1.dylib"];
+	"/System/Library/Frameworks/CoreMIDI.framework" -> "/System/Library/Frameworks/IOKit.framework" [ltail="cluster_/System/Library/Frameworks/CoreMIDI.framework",lhead="cluster_/System/Library/Frameworks/IOKit.framework"];
+	"/System/Library/Frameworks/AVKit.framework" -> "/System/Library/Frameworks/MediaAccessibility.framework" [ltail="cluster_/System/Library/Frameworks/AVKit.framework",lhead="cluster_/System/Library/Frameworks/MediaAccessibility.framework"];
+	"/System/Library/Frameworks/AVKit.framework" -> "/System/Library/Frameworks/AppKit.framework" [ltail="cluster_/System/Library/Frameworks/AVKit.framework",lhead="cluster_/System/Library/Frameworks/AppKit.framework"];
+	"/System/Library/Frameworks/AVKit.framework" -> "/System/Library/Frameworks/AVFoundation.framework" [ltail="cluster_/System/Library/Frameworks/AVKit.framework",lhead="cluster_/System/Library/Frameworks/AVFoundation.framework"];
+	"/System/Library/Frameworks/TWAIN.framework" -> "/System/Library/Frameworks/Carbon.framework" [ltail="cluster_/System/Library/Frameworks/TWAIN.framework",lhead="cluster_/System/Library/Frameworks/Carbon.framework"];
+	"/System/Library/Frameworks/TWAIN.framework" -> "/System/Library/Frameworks/Cocoa.framework" [ltail="cluster_/System/Library/Frameworks/TWAIN.framework",lhead="cluster_/System/Library/Frameworks/Cocoa.framework"];
+	"/System/Library/Frameworks/OpenAL.framework" -> "/System/Library/Frameworks/AudioUnit.framework" [ltail="cluster_/System/Library/Frameworks/OpenAL.framework",lhead="cluster_/System/Library/Frameworks/AudioUnit.framework"];
+	"/System/Library/Frameworks/DirectoryService.framework" -> "/System/Library/Frameworks/OpenDirectory.framework/Versions/A/Frameworks/CFOpenDirectory.framework" [ltail="cluster_/System/Library/Frameworks/DirectoryService.framework"];
+	"/usr/lib/libmecabra.dylib" -> "/System/Library/Frameworks/CoreData.framework" [ltail="cluster_/usr/lib/libmecabra.dylib",lhead="cluster_/System/Library/Frameworks/CoreData.framework"];
+	"/usr/lib/libmecabra.dylib" -> "/usr/lib/libiconv.2.dylib" [ltail="cluster_/usr/lib/libmecabra.dylib",lhead="cluster_/usr/lib/libiconv.2.dylib"];
+	"/System/Library/Frameworks/CryptoTokenKit.framework" -> "/System/Library/Frameworks/Foundation.framework" [ltail="cluster_/System/Library/Frameworks/CryptoTokenKit.framework",lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/Frameworks/SystemConfiguration.framework" -> "/System/Library/Frameworks/CoreFoundation.framework" [ltail="cluster_/System/Library/Frameworks/SystemConfiguration.framework",lhead="cluster_/System/Library/Frameworks/CoreFoundation.framework"];
+	"/System/Library/Frameworks/SystemConfiguration.framework" -> "/usr/lib/libbsm.0.dylib" [ltail="cluster_/System/Library/Frameworks/SystemConfiguration.framework",lhead="cluster_/usr/lib/libbsm.0.dylib"];
+	"/System/Library/Frameworks/NotificationCenter.framework" -> "/System/Library/Frameworks/Cocoa.framework" [ltail="cluster_/System/Library/Frameworks/NotificationCenter.framework",lhead="cluster_/System/Library/Frameworks/Cocoa.framework"];
+	"/usr/lib/libCoreStorage.dylib" -> "/usr/lib/libc++.1.dylib" [ltail="cluster_/usr/lib/libCoreStorage.dylib",lhead="cluster_/usr/lib/libc++.1.dylib"];
+	"/usr/lib/libCoreStorage.dylib" -> "/usr/lib/libutil.dylib" [ltail="cluster_/usr/lib/libCoreStorage.dylib"];
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework" -> "/System/Library/Frameworks/CoreText.framework" [lhead="cluster_/System/Library/Frameworks/CoreText.framework"];
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework" -> "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework" ;
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework" -> "/usr/lib/libc++.1.dylib" [lhead="cluster_/usr/lib/libc++.1.dylib"];
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework" -> "/System/Library/Frameworks/CoreGraphics.framework" [lhead="cluster_/System/Library/Frameworks/CoreGraphics.framework"];
+	"/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib" -> "/usr/lib/libc++.1.dylib" [lhead="cluster_/usr/lib/libc++.1.dylib"];
+	"/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuartzFilters.framework" -> "/System/Library/Frameworks/ApplicationServices.framework" [lhead="cluster_/System/Library/Frameworks/ApplicationServices.framework"];
+	"/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuartzFilters.framework" -> "/System/Library/Frameworks/Cocoa.framework" [lhead="cluster_/System/Library/Frameworks/Cocoa.framework"];
+	"/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuartzFilters.framework" -> "/System/Library/Frameworks/CoreGraphics.framework" [lhead="cluster_/System/Library/Frameworks/CoreGraphics.framework"];
+	"/System/Library/Frameworks/CoreVideo.framework" -> "/System/Library/Frameworks/ApplicationServices.framework" [ltail="cluster_/System/Library/Frameworks/CoreVideo.framework",lhead="cluster_/System/Library/Frameworks/ApplicationServices.framework"];
+	"/System/Library/Frameworks/CoreVideo.framework" -> "/System/Library/Frameworks/OpenGL.framework" [ltail="cluster_/System/Library/Frameworks/CoreVideo.framework",lhead="cluster_/System/Library/Frameworks/OpenGL.framework"];
+	"/System/Library/Frameworks/CoreVideo.framework" -> "/usr/lib/libc++.1.dylib" [ltail="cluster_/System/Library/Frameworks/CoreVideo.framework",lhead="cluster_/usr/lib/libc++.1.dylib"];
+	"/System/Library/Frameworks/CoreVideo.framework" -> "/System/Library/Frameworks/CoreGraphics.framework" [ltail="cluster_/System/Library/Frameworks/CoreVideo.framework",lhead="cluster_/System/Library/Frameworks/CoreGraphics.framework"];
+	"/System/Library/Frameworks/DiscRecordingUI.framework" -> "/System/Library/Frameworks/Carbon.framework" [ltail="cluster_/System/Library/Frameworks/DiscRecordingUI.framework",lhead="cluster_/System/Library/Frameworks/Carbon.framework"];
+	"/System/Library/Frameworks/DiscRecordingUI.framework" -> "/System/Library/Frameworks/ApplicationServices.framework" [ltail="cluster_/System/Library/Frameworks/DiscRecordingUI.framework",lhead="cluster_/System/Library/Frameworks/ApplicationServices.framework"];
+	"/System/Library/Frameworks/DiscRecordingUI.framework" -> "/System/Library/Frameworks/AppKit.framework" [ltail="cluster_/System/Library/Frameworks/DiscRecordingUI.framework",lhead="cluster_/System/Library/Frameworks/AppKit.framework"];
+	"/System/Library/Frameworks/DiscRecordingUI.framework" -> "/System/Library/Frameworks/CoreGraphics.framework" [ltail="cluster_/System/Library/Frameworks/DiscRecordingUI.framework",lhead="cluster_/System/Library/Frameworks/CoreGraphics.framework"];
+	"/System/Library/Frameworks/DiscRecordingUI.framework" -> "/System/Library/Frameworks/DiscRecording.framework" [ltail="cluster_/System/Library/Frameworks/DiscRecordingUI.framework",lhead="cluster_/System/Library/Frameworks/DiscRecording.framework"];
+	"/System/Library/Frameworks/ScriptingBridge.framework" -> "/System/Library/Frameworks/Carbon.framework" [ltail="cluster_/System/Library/Frameworks/ScriptingBridge.framework",lhead="cluster_/System/Library/Frameworks/Carbon.framework"];
+	"/System/Library/Frameworks/ScriptingBridge.framework" -> "/usr/lib/libffi.dylib" [ltail="cluster_/System/Library/Frameworks/ScriptingBridge.framework",lhead="cluster_/usr/lib/libffi.dylib"];
+	"/System/Library/Frameworks/ScriptingBridge.framework" -> "/System/Library/Frameworks/AppKit.framework" [ltail="cluster_/System/Library/Frameworks/ScriptingBridge.framework",lhead="cluster_/System/Library/Frameworks/AppKit.framework"];
+	"/System/Library/Frameworks/AppleScriptKit.framework" -> "/System/Library/Frameworks/OSAKit.framework" [ltail="cluster_/System/Library/Frameworks/AppleScriptKit.framework",lhead="cluster_/System/Library/Frameworks/OSAKit.framework"];
+	"/System/Library/Frameworks/DVComponentGlue.framework" -> "/System/Library/Frameworks/Carbon.framework" [ltail="cluster_/System/Library/Frameworks/DVComponentGlue.framework",lhead="cluster_/System/Library/Frameworks/Carbon.framework"];
+	"/System/Library/Frameworks/DVComponentGlue.framework" -> "/System/Library/Frameworks/CoreServices.framework" [ltail="cluster_/System/Library/Frameworks/DVComponentGlue.framework",lhead="cluster_/System/Library/Frameworks/CoreServices.framework"];
+	"/System/Library/Frameworks/CoreAudio.framework" -> "/System/Library/Frameworks/Security.framework" [ltail="cluster_/System/Library/Frameworks/CoreAudio.framework",lhead="cluster_/System/Library/Frameworks/Security.framework"];
+	"/System/Library/Frameworks/CoreAudio.framework" -> "/System/Library/Frameworks/IOKit.framework" [ltail="cluster_/System/Library/Frameworks/CoreAudio.framework",lhead="cluster_/System/Library/Frameworks/IOKit.framework"];
+	"/System/Library/Frameworks/PCSC.framework" -> "/System/Library/Frameworks/CoreFoundation.framework" [ltail="cluster_/System/Library/Frameworks/PCSC.framework",lhead="cluster_/System/Library/Frameworks/CoreFoundation.framework"];
+	"/System/Library/Frameworks/MediaAccessibility.framework" -> "/System/Library/Frameworks/QuartzCore.framework" [ltail="cluster_/System/Library/Frameworks/MediaAccessibility.framework",lhead="cluster_/System/Library/Frameworks/QuartzCore.framework"];
+	"/System/Library/Frameworks/MediaToolbox.framework" -> "/System/Library/Frameworks/AudioUnit.framework" [ltail="cluster_/System/Library/Frameworks/MediaToolbox.framework",lhead="cluster_/System/Library/Frameworks/AudioUnit.framework"];
+	"/System/Library/Frameworks/MediaToolbox.framework" -> "/System/Library/Frameworks/MediaAccessibility.framework" [ltail="cluster_/System/Library/Frameworks/MediaToolbox.framework",lhead="cluster_/System/Library/Frameworks/MediaAccessibility.framework"];
+	"/System/Library/Frameworks/MediaToolbox.framework" -> "/System/Library/Frameworks/CoreText.framework" [ltail="cluster_/System/Library/Frameworks/MediaToolbox.framework",lhead="cluster_/System/Library/Frameworks/CoreText.framework"];
+	"/System/Library/Frameworks/MediaToolbox.framework" -> "/System/Library/Frameworks/VideoToolbox.framework" [ltail="cluster_/System/Library/Frameworks/MediaToolbox.framework",lhead="cluster_/System/Library/Frameworks/VideoToolbox.framework"];
+	"/System/Library/Frameworks/CoreAudioKit.framework" -> "/System/Library/Frameworks/Cocoa.framework" [ltail="cluster_/System/Library/Frameworks/CoreAudioKit.framework",lhead="cluster_/System/Library/Frameworks/Cocoa.framework"];
+	"/System/Library/Frameworks/ServiceManagement.framework" -> "/System/Library/Frameworks/CoreServices.framework" [ltail="cluster_/System/Library/Frameworks/ServiceManagement.framework",lhead="cluster_/System/Library/Frameworks/CoreServices.framework"];
+	"/System/Library/Frameworks/ServiceManagement.framework" -> "/System/Library/Frameworks/Security.framework" [ltail="cluster_/System/Library/Frameworks/ServiceManagement.framework",lhead="cluster_/System/Library/Frameworks/Security.framework"];
+	"/System/Library/Frameworks/ServiceManagement.framework" -> "/System/Library/Frameworks/CoreFoundation.framework" [ltail="cluster_/System/Library/Frameworks/ServiceManagement.framework",lhead="cluster_/System/Library/Frameworks/CoreFoundation.framework"];
+	"/System/Library/Frameworks/CoreAuthentication.framework" -> "/System/Library/Frameworks/LocalAuthentication.framework" [ltail="cluster_/System/Library/Frameworks/CoreAuthentication.framework",lhead="cluster_/System/Library/Frameworks/LocalAuthentication.framework"];
+	"/usr/lib/liblzma.5.dylib" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/usr/lib/liblzma.5.dylib",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/usr/lib/system/libcompiler_rt.dylib" -> "/usr/lib/system/libdyld.dylib" [ltail="cluster_/usr/lib/system/libcompiler_rt.dylib",lhead="cluster_/usr/lib/system/libdyld.dylib"];
+	"/usr/lib/system/libcompiler_rt.dylib" -> "/usr/lib/system/libunwind.dylib" [ltail="cluster_/usr/lib/system/libcompiler_rt.dylib",lhead="cluster_/usr/lib/system/libunwind.dylib"];
+	"/usr/lib/system/libcompiler_rt.dylib" -> "/usr/lib/system/libsystem_c.dylib" [ltail="cluster_/usr/lib/system/libcompiler_rt.dylib",lhead="cluster_/usr/lib/system/libsystem_c.dylib"];
+	"/usr/lib/system/libcompiler_rt.dylib" -> "/usr/lib/system/libsystem_platform.dylib" [ltail="cluster_/usr/lib/system/libcompiler_rt.dylib",lhead="cluster_/usr/lib/system/libsystem_platform.dylib"];
+	"/usr/lib/system/libcompiler_rt.dylib" -> "/usr/lib/system/libsystem_m.dylib" [ltail="cluster_/usr/lib/system/libcompiler_rt.dylib",lhead="cluster_/usr/lib/system/libsystem_m.dylib"];
+	"/usr/lib/system/libcompiler_rt.dylib" -> "/usr/lib/system/libsystem_kernel.dylib" [ltail="cluster_/usr/lib/system/libcompiler_rt.dylib",lhead="cluster_/usr/lib/system/libsystem_kernel.dylib"];
+	"/System/Library/Frameworks/CloudKit.framework" -> "/System/Library/Frameworks/CoreLocation.framework" [ltail="cluster_/System/Library/Frameworks/CloudKit.framework",lhead="cluster_/System/Library/Frameworks/CoreLocation.framework"];
+	"/System/Library/Frameworks/CloudKit.framework" -> "/System/Library/Frameworks/Accounts.framework" [ltail="cluster_/System/Library/Frameworks/CloudKit.framework",lhead="cluster_/System/Library/Frameworks/Accounts.framework"];
+	"/System/Library/Frameworks/IMServicePlugIn.framework/Versions/A/Frameworks/IMServicePlugInSupport.framework" -> "/System/Library/Frameworks/Foundation.framework" [lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/Frameworks/ExceptionHandling.framework" -> "/System/Library/Frameworks/Foundation.framework" [ltail="cluster_/System/Library/Frameworks/ExceptionHandling.framework",lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/usr/lib/libsandbox.1.dylib" -> "/usr/lib/libMatch.1.dylib" [ltail="cluster_/usr/lib/libsandbox.1.dylib"];
+	"/usr/lib/libsandbox.1.dylib" -> "/usr/lib/libsqlite3.dylib" [ltail="cluster_/usr/lib/libsandbox.1.dylib",lhead="cluster_/usr/lib/libsqlite3.dylib"];
+	"/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/PDFKit.framework" -> "/System/Library/Frameworks/Quartz.framework" [lhead="cluster_/System/Library/Frameworks/Quartz.framework"];
+	"/System/Library/Frameworks/NetworkExtension.framework" -> "/System/Library/Frameworks/Foundation.framework" [ltail="cluster_/System/Library/Frameworks/NetworkExtension.framework",lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/usr/lib/libresolv.9.dylib" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/usr/lib/libresolv.9.dylib",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework" -> "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework" ;
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework" -> "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework" ;
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework" -> "/System/Library/Frameworks/CoreText.framework" [lhead="cluster_/System/Library/Frameworks/CoreText.framework"];
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Ink.framework" -> "/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework" ;
+	"/System/Library/Frameworks/AudioVideoBridging.framework" -> "/System/Library/Frameworks/CoreMedia.framework" [ltail="cluster_/System/Library/Frameworks/AudioVideoBridging.framework",lhead="cluster_/System/Library/Frameworks/CoreMedia.framework"];
+	"/System/Library/Frameworks/AudioVideoBridging.framework" -> "/System/Library/Frameworks/SystemConfiguration.framework" [ltail="cluster_/System/Library/Frameworks/AudioVideoBridging.framework",lhead="cluster_/System/Library/Frameworks/SystemConfiguration.framework"];
+	"/System/Library/Frameworks/AudioVideoBridging.framework" -> "/System/Library/Frameworks/AppKit.framework" [ltail="cluster_/System/Library/Frameworks/AudioVideoBridging.framework",lhead="cluster_/System/Library/Frameworks/AppKit.framework"];
+	"/System/Library/Frameworks/AudioVideoBridging.framework" -> "/System/Library/Frameworks/AVFoundation.framework" [ltail="cluster_/System/Library/Frameworks/AudioVideoBridging.framework",lhead="cluster_/System/Library/Frameworks/AVFoundation.framework"];
+	"/System/Library/Frameworks/Hypervisor.framework" -> "/System/Library/Frameworks/IOKit.framework" [ltail="cluster_/System/Library/Frameworks/Hypervisor.framework",lhead="cluster_/System/Library/Frameworks/IOKit.framework"];
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CommonPanels.framework" -> "/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework" ;
+	"/System/Library/Frameworks/LDAP.framework" -> "/usr/lib/libsasl2.2.dylib" [ltail="cluster_/System/Library/Frameworks/LDAP.framework",lhead="cluster_/usr/lib/libsasl2.2.dylib"];
+	"/System/Library/Frameworks/LDAP.framework" -> "/usr/lib/libresolv.9.dylib" [ltail="cluster_/System/Library/Frameworks/LDAP.framework",lhead="cluster_/usr/lib/libresolv.9.dylib"];
+	"/usr/lib/system/libcommonCrypto.dylib" -> "/usr/lib/system/libsystem_asl.dylib" [ltail="cluster_/usr/lib/system/libcommonCrypto.dylib",lhead="cluster_/usr/lib/system/libsystem_asl.dylib"];
+	"/usr/lib/system/libcommonCrypto.dylib" -> "/usr/lib/system/libcorecrypto.dylib" [ltail="cluster_/usr/lib/system/libcommonCrypto.dylib",lhead="cluster_/usr/lib/system/libcorecrypto.dylib"];
+	"/usr/lib/libTelephonyUtilDynamic.dylib" -> "/System/Library/Frameworks/Foundation.framework" [ltail="cluster_/usr/lib/libTelephonyUtilDynamic.dylib",lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/Frameworks/LocalAuthentication.framework/Support/SharedInternals.framework" -> "/System/Library/Frameworks/Foundation.framework" [lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/usr/lib/libxslt.1.dylib" -> "/usr/lib/libxml2.2.dylib" [ltail="cluster_/usr/lib/libxslt.1.dylib",lhead="cluster_/usr/lib/libxml2.2.dylib"];
+	"/usr/lib/libxslt.1.dylib" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/usr/lib/libxslt.1.dylib",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/usr/lib/libcurl.4.dylib" -> "/System/Library/Frameworks/LDAP.framework" [ltail="cluster_/usr/lib/libcurl.4.dylib",lhead="cluster_/System/Library/Frameworks/LDAP.framework"];
+	"/usr/lib/libcurl.4.dylib" -> "/System/Library/Frameworks/Kerberos.framework" [ltail="cluster_/usr/lib/libcurl.4.dylib",lhead="cluster_/System/Library/Frameworks/Kerberos.framework"];
+	"/System/Library/Frameworks/AVFoundation.framework/Versions/A/Resources/libAVFAudio.dylib" -> "/System/Library/Frameworks/AudioUnit.framework" [lhead="cluster_/System/Library/Frameworks/AudioUnit.framework"];
+	"/System/Library/Frameworks/AVFoundation.framework/Versions/A/Resources/libAVFAudio.dylib" -> "/System/Library/Frameworks/Foundation.framework" [lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libRadiance.dylib" -> "/usr/lib/libSystem.B.dylib" [lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/System/Library/Frameworks/Collaboration.framework" -> "/System/Library/Frameworks/Cocoa.framework" [ltail="cluster_/System/Library/Frameworks/Collaboration.framework",lhead="cluster_/System/Library/Frameworks/Cocoa.framework"];
+	"/System/Library/Frameworks/Collaboration.framework" -> "/System/Library/Frameworks/AddressBook.framework" [ltail="cluster_/System/Library/Frameworks/Collaboration.framework",lhead="cluster_/System/Library/Frameworks/AddressBook.framework"];
+	"/System/Library/Frameworks/AudioToolbox.framework" -> "/System/Library/Frameworks/CoreAudio.framework" [ltail="cluster_/System/Library/Frameworks/AudioToolbox.framework",lhead="cluster_/System/Library/Frameworks/CoreAudio.framework"];
+	"/System/Library/Frameworks/AudioToolbox.framework" -> "/System/Library/Frameworks/Accelerate.framework" [ltail="cluster_/System/Library/Frameworks/AudioToolbox.framework",lhead="cluster_/System/Library/Frameworks/Accelerate.framework"];
+	"/System/Library/Frameworks/AudioToolbox.framework" -> "/System/Library/Frameworks/CoreServices.framework" [ltail="cluster_/System/Library/Frameworks/AudioToolbox.framework",lhead="cluster_/System/Library/Frameworks/CoreServices.framework"];
+	"/usr/lib/system/libkxld.dylib" -> "/usr/lib/libc++.1.dylib" [ltail="cluster_/usr/lib/system/libkxld.dylib",lhead="cluster_/usr/lib/libc++.1.dylib"];
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/ImageCapture.framework" -> "/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework" ;
+	"/System/Library/Frameworks/OpenDirectory.framework/Versions/A/Frameworks/CFOpenDirectory.framework" -> "/System/Library/Frameworks/Security.framework" [lhead="cluster_/System/Library/Frameworks/Security.framework"];
+	"/System/Library/Frameworks/OpenDirectory.framework/Versions/A/Frameworks/CFOpenDirectory.framework" -> "/System/Library/Frameworks/SystemConfiguration.framework" [lhead="cluster_/System/Library/Frameworks/SystemConfiguration.framework"];
+	"/usr/lib/libz.1.dylib" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/usr/lib/libz.1.dylib",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/System/Library/Frameworks/GameController.framework" -> "/System/Library/Frameworks/Cocoa.framework" [ltail="cluster_/System/Library/Frameworks/GameController.framework",lhead="cluster_/System/Library/Frameworks/Cocoa.framework"];
+	"/System/Library/Frameworks/GameController.framework" -> "/System/Library/Frameworks/IOBluetooth.framework" [ltail="cluster_/System/Library/Frameworks/GameController.framework",lhead="cluster_/System/Library/Frameworks/IOBluetooth.framework"];
+	"/System/Library/Frameworks/ImageCaptureCore.framework" -> "/System/Library/Frameworks/ImageIO.framework" [ltail="cluster_/System/Library/Frameworks/ImageCaptureCore.framework",lhead="cluster_/System/Library/Frameworks/ImageIO.framework"];
+	"/System/Library/Frameworks/ImageCaptureCore.framework" -> "/System/Library/Frameworks/Foundation.framework" [ltail="cluster_/System/Library/Frameworks/ImageCaptureCore.framework",lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/Frameworks/ImageCaptureCore.framework" -> "/System/Library/Frameworks/AppKit.framework" [ltail="cluster_/System/Library/Frameworks/ImageCaptureCore.framework",lhead="cluster_/System/Library/Frameworks/AppKit.framework"];
+	"/usr/lib/libsasl2.2.dylib" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/usr/lib/libsasl2.2.dylib",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/System/Library/Frameworks/SceneKit.framework" -> "/System/Library/Frameworks/QTKit.framework" [ltail="cluster_/System/Library/Frameworks/SceneKit.framework",lhead="cluster_/System/Library/Frameworks/QTKit.framework"];
+	"/System/Library/Frameworks/SceneKit.framework" -> "/System/Library/Frameworks/JavaScriptCore.framework" [ltail="cluster_/System/Library/Frameworks/SceneKit.framework",lhead="cluster_/System/Library/Frameworks/JavaScriptCore.framework"];
+	"/System/Library/Frameworks/SceneKit.framework" -> "/System/Library/Frameworks/AppKit.framework" [ltail="cluster_/System/Library/Frameworks/SceneKit.framework",lhead="cluster_/System/Library/Frameworks/AppKit.framework"];
+	"/System/Library/Frameworks/SceneKit.framework" -> "/System/Library/Frameworks/OpenCL.framework" [ltail="cluster_/System/Library/Frameworks/SceneKit.framework",lhead="cluster_/System/Library/Frameworks/OpenCL.framework"];
+	"/usr/lib/system/libcopyfile.dylib" -> "/usr/lib/system/libquarantine.dylib" [ltail="cluster_/usr/lib/system/libcopyfile.dylib",lhead="cluster_/usr/lib/system/libquarantine.dylib"];
+	"/System/Library/Frameworks/PubSub.framework" -> "/System/Library/Frameworks/Cocoa.framework" [ltail="cluster_/System/Library/Frameworks/PubSub.framework",lhead="cluster_/System/Library/Frameworks/Cocoa.framework"];
+	"/System/Library/Frameworks/PubSub.framework" -> "/System/Library/Frameworks/JavaScriptCore.framework" [ltail="cluster_/System/Library/Frameworks/PubSub.framework",lhead="cluster_/System/Library/Frameworks/JavaScriptCore.framework"];
+	"/System/Library/Frameworks/PubSub.framework" -> "/usr/lib/libtidy.A.dylib" [ltail="cluster_/System/Library/Frameworks/PubSub.framework",lhead="cluster_/usr/lib/libtidy.A.dylib"];
+	"/System/Library/Frameworks/Accounts.framework" -> "/System/Library/Frameworks/CoreData.framework" [ltail="cluster_/System/Library/Frameworks/Accounts.framework",lhead="cluster_/System/Library/Frameworks/CoreData.framework"];
+	"/System/Library/Frameworks/Accounts.framework" -> "/System/Library/Frameworks/GSS.framework" [ltail="cluster_/System/Library/Frameworks/Accounts.framework",lhead="cluster_/System/Library/Frameworks/GSS.framework"];
+	"/System/Library/Frameworks/ForceFeedback.framework" -> "/System/Library/Frameworks/IOKit.framework" [ltail="cluster_/System/Library/Frameworks/ForceFeedback.framework",lhead="cluster_/System/Library/Frameworks/IOKit.framework"];
+	"/usr/lib/libiconv.2.dylib" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/usr/lib/libiconv.2.dylib",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework" -> "/usr/lib/libc++.1.dylib" [lhead="cluster_/usr/lib/libc++.1.dylib"];
+	"/System/Library/Frameworks/EventKit.framework" -> "/System/Library/Frameworks/Cocoa.framework" [ltail="cluster_/System/Library/Frameworks/EventKit.framework",lhead="cluster_/System/Library/Frameworks/Cocoa.framework"];
+	"/System/Library/Frameworks/PreferencePanes.framework" -> "/System/Library/Frameworks/Carbon.framework" [ltail="cluster_/System/Library/Frameworks/PreferencePanes.framework",lhead="cluster_/System/Library/Frameworks/Carbon.framework"];
+	"/System/Library/Frameworks/PreferencePanes.framework" -> "/System/Library/Frameworks/SecurityInterface.framework" [ltail="cluster_/System/Library/Frameworks/PreferencePanes.framework",lhead="cluster_/System/Library/Frameworks/SecurityInterface.framework"];
+	"/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib" -> "/usr/lib/libSystem.B.dylib" [lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/usr/lib/system/libsystem_coretls.dylib" -> "/usr/lib/system/libsystem_pthread.dylib" [ltail="cluster_/usr/lib/system/libsystem_coretls.dylib",lhead="cluster_/usr/lib/system/libsystem_pthread.dylib"];
+	"/usr/lib/system/libsystem_coretls.dylib" -> "/usr/lib/system/libxpc.dylib" [ltail="cluster_/usr/lib/system/libsystem_coretls.dylib",lhead="cluster_/usr/lib/system/libxpc.dylib"];
+	"/usr/lib/system/libsystem_coretls.dylib" -> "/usr/lib/system/libcommonCrypto.dylib" [ltail="cluster_/usr/lib/system/libsystem_coretls.dylib",lhead="cluster_/usr/lib/system/libcommonCrypto.dylib"];
+	"/usr/lib/system/libsystem_coretls.dylib" -> "/usr/lib/system/libsystem_malloc.dylib" [ltail="cluster_/usr/lib/system/libsystem_coretls.dylib",lhead="cluster_/usr/lib/system/libsystem_malloc.dylib"];
+	"/usr/lib/libquit.dylib" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/usr/lib/libquit.dylib",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/usr/lib/libquit.dylib" -> "/System/Library/Frameworks/CoreFoundation.framework" [ltail="cluster_/usr/lib/libquit.dylib",lhead="cluster_/System/Library/Frameworks/CoreFoundation.framework"];
+	"/usr/lib/libquit.dylib" -> "/System/Library/Frameworks/CoreGraphics.framework" [ltail="cluster_/usr/lib/libquit.dylib",lhead="cluster_/System/Library/Frameworks/CoreGraphics.framework"];
+	"/System/Library/Frameworks/QuartzCore.framework/Versions/A/Frameworks/CoreImage.framework" -> "/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLImage.dylib" ;
+	"/System/Library/Frameworks/QuartzCore.framework/Versions/A/Frameworks/CoreImage.framework" -> "/System/Library/Frameworks/ImageIO.framework" [lhead="cluster_/System/Library/Frameworks/ImageIO.framework"];
+	"/System/Library/Frameworks/QuartzCore.framework/Versions/A/Frameworks/CoreImage.framework" -> "/System/Library/Frameworks/CoreVideo.framework" [lhead="cluster_/System/Library/Frameworks/CoreVideo.framework"];
+	"/usr/lib/system/liblaunch.dylib" -> "/usr/lib/system/libxpc.dylib" [ltail="cluster_/usr/lib/system/liblaunch.dylib",lhead="cluster_/usr/lib/system/libxpc.dylib"];
+	"/System/Library/Frameworks/AppKit.framework" -> "/System/Library/Frameworks/CoreData.framework" [ltail="cluster_/System/Library/Frameworks/AppKit.framework",lhead="cluster_/System/Library/Frameworks/CoreData.framework"];
+	"/System/Library/Frameworks/AppKit.framework" -> "/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SpeechRecognition.framework" [ltail="cluster_/System/Library/Frameworks/AppKit.framework"];
+	"/System/Library/Frameworks/AppKit.framework" -> "/System/Library/Frameworks/AudioUnit.framework" [ltail="cluster_/System/Library/Frameworks/AppKit.framework",lhead="cluster_/System/Library/Frameworks/AudioUnit.framework"];
+	"/System/Library/Frameworks/AppKit.framework" -> "/System/Library/Frameworks/OpenGL.framework" [ltail="cluster_/System/Library/Frameworks/AppKit.framework",lhead="cluster_/System/Library/Frameworks/OpenGL.framework"];
+	"/System/Library/Frameworks/Automator.framework" -> "/System/Library/Frameworks/Quartz.framework" [ltail="cluster_/System/Library/Frameworks/Automator.framework",lhead="cluster_/System/Library/Frameworks/Quartz.framework"];
+	"/System/Library/Frameworks/Automator.framework" -> "/System/Library/Frameworks/ScriptingBridge.framework" [ltail="cluster_/System/Library/Frameworks/Automator.framework",lhead="cluster_/System/Library/Frameworks/ScriptingBridge.framework"];
+	"/System/Library/Frameworks/Automator.framework" -> "/System/Library/Frameworks/QTKit.framework" [ltail="cluster_/System/Library/Frameworks/Automator.framework",lhead="cluster_/System/Library/Frameworks/QTKit.framework"];
+	"/System/Library/Frameworks/Automator.framework" -> "/System/Library/Frameworks/AppleScriptObjC.framework" [ltail="cluster_/System/Library/Frameworks/Automator.framework",lhead="cluster_/System/Library/Frameworks/AppleScriptObjC.framework"];
+	"/System/Library/Frameworks/Automator.framework" -> "/System/Library/Frameworks/OSAKit.framework" [ltail="cluster_/System/Library/Frameworks/Automator.framework",lhead="cluster_/System/Library/Frameworks/OSAKit.framework"];
+	"/System/Library/Frameworks/AGL.framework" -> "/System/Library/Frameworks/Carbon.framework" [ltail="cluster_/System/Library/Frameworks/AGL.framework",lhead="cluster_/System/Library/Frameworks/Carbon.framework"];
+	"/System/Library/Frameworks/AGL.framework" -> "/System/Library/Frameworks/OpenGL.framework" [ltail="cluster_/System/Library/Frameworks/AGL.framework",lhead="cluster_/System/Library/Frameworks/OpenGL.framework"];
+	"/System/Library/Frameworks/AGL.framework" -> "/System/Library/Frameworks/CoreFoundation.framework" [ltail="cluster_/System/Library/Frameworks/AGL.framework",lhead="cluster_/System/Library/Frameworks/CoreFoundation.framework"];
+	"/System/Library/Frameworks/AGL.framework" -> "/System/Library/Frameworks/CoreGraphics.framework" [ltail="cluster_/System/Library/Frameworks/AGL.framework",lhead="cluster_/System/Library/Frameworks/CoreGraphics.framework"];
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework" -> "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework" ;
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework" -> "/System/Library/Frameworks/AudioToolbox.framework" [lhead="cluster_/System/Library/Frameworks/AudioToolbox.framework"];
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework" -> "/usr/lib/libc++.1.dylib" [lhead="cluster_/usr/lib/libc++.1.dylib"];
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework" -> "/System/Library/Frameworks/CoreFoundation.framework" [lhead="cluster_/System/Library/Frameworks/CoreFoundation.framework"];
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework" -> "/System/Library/Frameworks/CoreGraphics.framework" [lhead="cluster_/System/Library/Frameworks/CoreGraphics.framework"];
+	"/System/Library/Frameworks/vecLib.framework" -> "/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework" [ltail="cluster_/System/Library/Frameworks/vecLib.framework"];
+	"/usr/lib/system/libremovefile.dylib" -> "/usr/lib/system/libsystem_malloc.dylib" [ltail="cluster_/usr/lib/system/libremovefile.dylib",lhead="cluster_/usr/lib/system/libsystem_malloc.dylib"];
+	"/System/Library/Frameworks/NetFS.framework" -> "/usr/lib/libDiagnosticMessagesClient.dylib" [ltail="cluster_/System/Library/Frameworks/NetFS.framework",lhead="cluster_/usr/lib/libDiagnosticMessagesClient.dylib"];
+	"/System/Library/Frameworks/NetFS.framework" -> "/System/Library/Frameworks/SystemConfiguration.framework" [ltail="cluster_/System/Library/Frameworks/NetFS.framework",lhead="cluster_/System/Library/Frameworks/SystemConfiguration.framework"];
+	"/System/Library/Frameworks/NetFS.framework" -> "/System/Library/Frameworks/DiskArbitration.framework" [ltail="cluster_/System/Library/Frameworks/NetFS.framework",lhead="cluster_/System/Library/Frameworks/DiskArbitration.framework"];
+	"/usr/lib/liblangid.dylib" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/usr/lib/liblangid.dylib",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/System/Library/Frameworks/ImageIO.framework" -> "/System/Library/Frameworks/CoreGraphics.framework" [ltail="cluster_/System/Library/Frameworks/ImageIO.framework",lhead="cluster_/System/Library/Frameworks/CoreGraphics.framework"];
+	"/System/Library/Frameworks/ImageIO.framework" -> "/System/Library/Frameworks/ApplicationServices.framework" [ltail="cluster_/System/Library/Frameworks/ImageIO.framework",lhead="cluster_/System/Library/Frameworks/ApplicationServices.framework"];
+	"/System/Library/Frameworks/AVFoundation.framework" -> "/System/Library/Frameworks/ImageIO.framework" [ltail="cluster_/System/Library/Frameworks/AVFoundation.framework",lhead="cluster_/System/Library/Frameworks/ImageIO.framework"];
+	"/System/Library/Frameworks/AVFoundation.framework" -> "/System/Library/Frameworks/CoreMediaIO.framework" [ltail="cluster_/System/Library/Frameworks/AVFoundation.framework",lhead="cluster_/System/Library/Frameworks/CoreMediaIO.framework"];
+	"/System/Library/Frameworks/AddressBook.framework" -> "/System/Library/Frameworks/Quartz.framework" [ltail="cluster_/System/Library/Frameworks/AddressBook.framework",lhead="cluster_/System/Library/Frameworks/Quartz.framework"];
+	"/System/Library/Frameworks/AddressBook.framework" -> "/System/Library/Frameworks/NetFS.framework" [ltail="cluster_/System/Library/Frameworks/AddressBook.framework",lhead="cluster_/System/Library/Frameworks/NetFS.framework"];
+	"/System/Library/Frameworks/AddressBook.framework" -> "/System/Library/Frameworks/OpenDirectory.framework" [ltail="cluster_/System/Library/Frameworks/AddressBook.framework",lhead="cluster_/System/Library/Frameworks/OpenDirectory.framework"];
+	"/System/Library/Frameworks/AddressBook.framework" -> "/System/Library/Frameworks/DirectoryService.framework" [ltail="cluster_/System/Library/Frameworks/AddressBook.framework",lhead="cluster_/System/Library/Frameworks/DirectoryService.framework"];
+	"/System/Library/Frameworks/AddressBook.framework" -> "/System/Library/Frameworks/LDAP.framework" [ltail="cluster_/System/Library/Frameworks/AddressBook.framework",lhead="cluster_/System/Library/Frameworks/LDAP.framework"];
+	"/System/Library/Frameworks/AddressBook.framework" -> "/System/Library/Frameworks/SecurityInterface.framework" [ltail="cluster_/System/Library/Frameworks/AddressBook.framework",lhead="cluster_/System/Library/Frameworks/SecurityInterface.framework"];
+	"/usr/lib/libSystem.B.dylib" -> "/usr/lib/system/libsystem_coreservices.dylib" [ltail="cluster_/usr/lib/libSystem.B.dylib",lhead="cluster_/usr/lib/system/libsystem_coreservices.dylib"];
+	"/usr/lib/libSystem.B.dylib" -> "/usr/lib/system/libsystem_secinit.dylib" [ltail="cluster_/usr/lib/libSystem.B.dylib",lhead="cluster_/usr/lib/system/libsystem_secinit.dylib"];
+	"/usr/lib/libSystem.B.dylib" -> "/usr/lib/system/libremovefile.dylib" [ltail="cluster_/usr/lib/libSystem.B.dylib",lhead="cluster_/usr/lib/system/libremovefile.dylib"];
+	"/usr/lib/libSystem.B.dylib" -> "/usr/lib/system/libcache.dylib" [ltail="cluster_/usr/lib/libSystem.B.dylib",lhead="cluster_/usr/lib/system/libcache.dylib"];
+	"/usr/lib/libSystem.B.dylib" -> "/usr/lib/system/libsystem_stats.dylib" [ltail="cluster_/usr/lib/libSystem.B.dylib",lhead="cluster_/usr/lib/system/libsystem_stats.dylib"];
+	"/usr/lib/libSystem.B.dylib" -> "/usr/lib/system/libunc.dylib" [ltail="cluster_/usr/lib/libSystem.B.dylib",lhead="cluster_/usr/lib/system/libunc.dylib"];
+	"/usr/lib/libSystem.B.dylib" -> "/usr/lib/system/libsystem_configuration.dylib" [ltail="cluster_/usr/lib/libSystem.B.dylib",lhead="cluster_/usr/lib/system/libsystem_configuration.dylib"];
+	"/usr/lib/libSystem.B.dylib" -> "/usr/lib/system/libcopyfile.dylib" [ltail="cluster_/usr/lib/libSystem.B.dylib",lhead="cluster_/usr/lib/system/libcopyfile.dylib"];
+	"/System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebKitLegacy.framework" -> "/System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebCore.framework" ;
+	"/usr/lib/system/libdispatch.dylib" -> "/usr/lib/system/libsystem_blocks.dylib" [ltail="cluster_/usr/lib/system/libdispatch.dylib",lhead="cluster_/usr/lib/system/libsystem_blocks.dylib"];
+	"/usr/lib/system/libdispatch.dylib" -> "/usr/lib/libobjc.A.dylib" [ltail="cluster_/usr/lib/system/libdispatch.dylib",lhead="cluster_/usr/lib/libobjc.A.dylib"];
+	"/usr/lib/libbz2.1.0.dylib" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/usr/lib/libbz2.1.0.dylib",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/usr/lib/system/libsystem_notify.dylib" -> "/usr/lib/system/libsystem_pthread.dylib" [ltail="cluster_/usr/lib/system/libsystem_notify.dylib",lhead="cluster_/usr/lib/system/libsystem_pthread.dylib"];
+	"/usr/lib/system/libsystem_notify.dylib" -> "/usr/lib/system/libxpc.dylib" [ltail="cluster_/usr/lib/system/libsystem_notify.dylib",lhead="cluster_/usr/lib/system/libxpc.dylib"];
+	"/usr/lib/system/libsystem_notify.dylib" -> "/usr/lib/system/libdispatch.dylib" [ltail="cluster_/usr/lib/system/libsystem_notify.dylib",lhead="cluster_/usr/lib/system/libdispatch.dylib"];
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework" -> "/usr/lib/libxml2.2.dylib" [lhead="cluster_/usr/lib/libxml2.2.dylib"];
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework" -> "/System/Library/Frameworks/IOKit.framework" [lhead="cluster_/System/Library/Frameworks/IOKit.framework"];
+	"/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework" -> "/System/Library/Frameworks/CoreGraphics.framework" [lhead="cluster_/System/Library/Frameworks/CoreGraphics.framework"];
+	"/usr/lib/system/libcorecrypto.dylib" -> "/usr/lib/system/libdispatch.dylib" [ltail="cluster_/usr/lib/system/libcorecrypto.dylib",lhead="cluster_/usr/lib/system/libdispatch.dylib"];
+	"/usr/lib/system/libcorecrypto.dylib" -> "/usr/lib/system/libmacho.dylib" [ltail="cluster_/usr/lib/system/libcorecrypto.dylib",lhead="cluster_/usr/lib/system/libmacho.dylib"];
+	"/usr/lib/libgcc_s.1.dylib" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/usr/lib/libgcc_s.1.dylib",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/System/Library/Frameworks/DrawSprocket.framework" -> "/System/Library/Frameworks/ApplicationServices.framework" [ltail="cluster_/System/Library/Frameworks/DrawSprocket.framework",lhead="cluster_/System/Library/Frameworks/ApplicationServices.framework"];
+	"/System/Library/Frameworks/DrawSprocket.framework" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/System/Library/Frameworks/DrawSprocket.framework",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/System/Library/Frameworks/DrawSprocket.framework" -> "/System/Library/Frameworks/CoreFoundation.framework" [ltail="cluster_/System/Library/Frameworks/DrawSprocket.framework",lhead="cluster_/System/Library/Frameworks/CoreFoundation.framework"];
+	"/System/Library/Frameworks/DrawSprocket.framework" -> "/System/Library/Frameworks/CoreGraphics.framework" [ltail="cluster_/System/Library/Frameworks/DrawSprocket.framework",lhead="cluster_/System/Library/Frameworks/CoreGraphics.framework"];
+	"/System/Library/Frameworks/DrawSprocket.framework" -> "/System/Library/Frameworks/Carbon.framework" [ltail="cluster_/System/Library/Frameworks/DrawSprocket.framework",lhead="cluster_/System/Library/Frameworks/Carbon.framework"];
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CarbonSound.framework" -> "/System/Library/Frameworks/CoreAudio.framework" [lhead="cluster_/System/Library/Frameworks/CoreAudio.framework"];
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CarbonSound.framework" -> "/System/Library/Frameworks/CoreServices.framework" [lhead="cluster_/System/Library/Frameworks/CoreServices.framework"];
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CarbonSound.framework" -> "/usr/lib/libc++.1.dylib" [lhead="cluster_/usr/lib/libc++.1.dylib"];
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CarbonSound.framework" -> "/System/Library/Frameworks/CoreFoundation.framework" [lhead="cluster_/System/Library/Frameworks/CoreFoundation.framework"];
+	"/usr/lib/system/libkeymgr.dylib" -> "/usr/lib/system/libsystem_pthread.dylib" [ltail="cluster_/usr/lib/system/libkeymgr.dylib",lhead="cluster_/usr/lib/system/libsystem_pthread.dylib"];
+	"/usr/lib/system/libkeymgr.dylib" -> "/usr/lib/system/libsystem_platform.dylib" [ltail="cluster_/usr/lib/system/libkeymgr.dylib",lhead="cluster_/usr/lib/system/libsystem_platform.dylib"];
+	"/usr/lib/system/libkeymgr.dylib" -> "/usr/lib/system/libsystem_c.dylib" [ltail="cluster_/usr/lib/system/libkeymgr.dylib",lhead="cluster_/usr/lib/system/libsystem_c.dylib"];
+	"/usr/lib/system/libkeymgr.dylib" -> "/usr/lib/system/libsystem_malloc.dylib" [ltail="cluster_/usr/lib/system/libkeymgr.dylib",lhead="cluster_/usr/lib/system/libsystem_malloc.dylib"];
+	"/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework" -> "/System/Library/Frameworks/JavaVM.framework" [lhead="cluster_/System/Library/Frameworks/JavaVM.framework"];
+	"/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework" -> "/System/Library/Frameworks/Cocoa.framework" [lhead="cluster_/System/Library/Frameworks/Cocoa.framework"];
+	"/System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework" -> "/System/Library/Frameworks/Foundation.framework" [lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/usr/lib/system/libquarantine.dylib" -> "/usr/lib/system/libcorecrypto.dylib" [ltail="cluster_/usr/lib/system/libquarantine.dylib",lhead="cluster_/usr/lib/system/libcorecrypto.dylib"];
+	"/System/Library/Frameworks/QuickTime.framework" -> "/System/Library/Frameworks/AudioUnit.framework" [ltail="cluster_/System/Library/Frameworks/QuickTime.framework",lhead="cluster_/System/Library/Frameworks/AudioUnit.framework"];
+	"/System/Library/Frameworks/QuickTime.framework" -> "/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework" [ltail="cluster_/System/Library/Frameworks/QuickTime.framework"];
+	"/System/Library/Frameworks/QuickTime.framework" -> "/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/NavigationServices.framework" [ltail="cluster_/System/Library/Frameworks/QuickTime.framework"];
+	"/System/Library/Frameworks/QuickTime.framework" -> "/System/Library/Frameworks/CoreData.framework" [ltail="cluster_/System/Library/Frameworks/QuickTime.framework",lhead="cluster_/System/Library/Frameworks/CoreData.framework"];
+	"/System/Library/Frameworks/DiscRecording.framework" -> "/System/Library/Frameworks/AudioToolbox.framework" [ltail="cluster_/System/Library/Frameworks/DiscRecording.framework",lhead="cluster_/System/Library/Frameworks/AudioToolbox.framework"];
+	"/System/Library/Frameworks/DiscRecording.framework" -> "/System/Library/Frameworks/DiskArbitration.framework" [ltail="cluster_/System/Library/Frameworks/DiscRecording.framework",lhead="cluster_/System/Library/Frameworks/DiskArbitration.framework"];
+	"/System/Library/Frameworks/DiscRecording.framework" -> "/System/Library/Frameworks/Foundation.framework" [ltail="cluster_/System/Library/Frameworks/DiscRecording.framework",lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SecurityHI.framework" -> "/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework" ;
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SecurityHI.framework" -> "/System/Library/Frameworks/Security.framework" [lhead="cluster_/System/Library/Frameworks/Security.framework"];
+	"/System/Library/Frameworks/LocalAuthentication.framework" -> "/System/Library/Frameworks/CoreFoundation.framework" [ltail="cluster_/System/Library/Frameworks/LocalAuthentication.framework",lhead="cluster_/System/Library/Frameworks/CoreFoundation.framework"];
+	"/System/Library/Frameworks/InstantMessage.framework" -> "/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuartzComposer.framework" [ltail="cluster_/System/Library/Frameworks/InstantMessage.framework"];
+	"/System/Library/Frameworks/InstantMessage.framework" -> "/System/Library/Frameworks/QuartzCore.framework" [ltail="cluster_/System/Library/Frameworks/InstantMessage.framework",lhead="cluster_/System/Library/Frameworks/QuartzCore.framework"];
+	"/System/Library/Frameworks/InstantMessage.framework" -> "/System/Library/Frameworks/CoreFoundation.framework" [ltail="cluster_/System/Library/Frameworks/InstantMessage.framework",lhead="cluster_/System/Library/Frameworks/CoreFoundation.framework"];
+	"/System/Library/Frameworks/InstantMessage.framework" -> "/System/Library/Frameworks/Foundation.framework" [ltail="cluster_/System/Library/Frameworks/InstantMessage.framework",lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/Frameworks/CoreData.framework" -> "/System/Library/Frameworks/Security.framework" [ltail="cluster_/System/Library/Frameworks/CoreData.framework",lhead="cluster_/System/Library/Frameworks/Security.framework"];
+	"/System/Library/Frameworks/CoreData.framework" -> "/System/Library/Frameworks/CoreFoundation.framework" [ltail="cluster_/System/Library/Frameworks/CoreData.framework",lhead="cluster_/System/Library/Frameworks/CoreFoundation.framework"];
+	"/System/Library/Frameworks/CoreData.framework" -> "/System/Library/Frameworks/Foundation.framework" [ltail="cluster_/System/Library/Frameworks/CoreData.framework",lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/Frameworks/IOBluetooth.framework" -> "/System/Library/Frameworks/OpenDirectory.framework" [ltail="cluster_/System/Library/Frameworks/IOBluetooth.framework",lhead="cluster_/System/Library/Frameworks/OpenDirectory.framework"];
+	"/System/Library/Frameworks/IOBluetooth.framework" -> "/System/Library/Frameworks/CoreWLAN.framework" [ltail="cluster_/System/Library/Frameworks/IOBluetooth.framework",lhead="cluster_/System/Library/Frameworks/CoreWLAN.framework"];
+	"/System/Library/Frameworks/IOBluetooth.framework" -> "/System/Library/Frameworks/SystemConfiguration.framework" [ltail="cluster_/System/Library/Frameworks/IOBluetooth.framework",lhead="cluster_/System/Library/Frameworks/SystemConfiguration.framework"];
+	"/System/Library/Frameworks/IOBluetooth.framework" -> "/System/Library/Frameworks/CoreBluetooth.framework" [ltail="cluster_/System/Library/Frameworks/IOBluetooth.framework",lhead="cluster_/System/Library/Frameworks/CoreBluetooth.framework"];
+	"/System/Library/Frameworks/IOBluetooth.framework" -> "/System/Library/Frameworks/AudioUnit.framework" [ltail="cluster_/System/Library/Frameworks/IOBluetooth.framework",lhead="cluster_/System/Library/Frameworks/AudioUnit.framework"];
+	"/System/Library/Frameworks/ScreenSaver.framework" -> "/System/Library/Frameworks/IOKit.framework" [ltail="cluster_/System/Library/Frameworks/ScreenSaver.framework",lhead="cluster_/System/Library/Frameworks/IOKit.framework"];
+	"/System/Library/Frameworks/ScreenSaver.framework" -> "/System/Library/Frameworks/CoreGraphics.framework" [ltail="cluster_/System/Library/Frameworks/ScreenSaver.framework",lhead="cluster_/System/Library/Frameworks/CoreGraphics.framework"];
+	"/System/Library/Frameworks/ScreenSaver.framework" -> "/System/Library/Frameworks/ApplicationServices.framework" [ltail="cluster_/System/Library/Frameworks/ScreenSaver.framework",lhead="cluster_/System/Library/Frameworks/ApplicationServices.framework"];
+	"/System/Library/Frameworks/ScreenSaver.framework" -> "/System/Library/Frameworks/Foundation.framework" [ltail="cluster_/System/Library/Frameworks/ScreenSaver.framework",lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/Frameworks/ScreenSaver.framework" -> "/System/Library/Frameworks/SecurityInterface.framework" [ltail="cluster_/System/Library/Frameworks/ScreenSaver.framework",lhead="cluster_/System/Library/Frameworks/SecurityInterface.framework"];
+	"/System/Library/Frameworks/ScreenSaver.framework" -> "/System/Library/Frameworks/PubSub.framework" [ltail="cluster_/System/Library/Frameworks/ScreenSaver.framework",lhead="cluster_/System/Library/Frameworks/PubSub.framework"];
+	"/usr/lib/libxar.1.dylib" -> "/usr/lib/libxml2.2.dylib" [ltail="cluster_/usr/lib/libxar.1.dylib",lhead="cluster_/usr/lib/libxml2.2.dylib"];
+	"/usr/lib/libxar.1.dylib" -> "/usr/lib/libbz2.1.0.dylib" [ltail="cluster_/usr/lib/libxar.1.dylib",lhead="cluster_/usr/lib/libbz2.1.0.dylib"];
+	"/System/Library/Frameworks/Social.framework" -> "/System/Library/Frameworks/CoreLocation.framework" [ltail="cluster_/System/Library/Frameworks/Social.framework",lhead="cluster_/System/Library/Frameworks/CoreLocation.framework"];
+	"/usr/lib/system/libsystem_dnssd.dylib" -> "/usr/lib/system/libsystem_asl.dylib" [ltail="cluster_/usr/lib/system/libsystem_dnssd.dylib",lhead="cluster_/usr/lib/system/libsystem_asl.dylib"];
+	"/usr/lib/system/libsystem_dnssd.dylib" -> "/usr/lib/system/liblaunch.dylib" [ltail="cluster_/usr/lib/system/libsystem_dnssd.dylib",lhead="cluster_/usr/lib/system/liblaunch.dylib"];
+	"/usr/lib/libssl.0.9.8.dylib" -> "/usr/lib/libcrypto.0.9.8.dylib" [ltail="cluster_/usr/lib/libssl.0.9.8.dylib",lhead="cluster_/usr/lib/libcrypto.0.9.8.dylib"];
+	"/usr/lib/libauto.dylib" -> "/usr/lib/libDiagnosticMessagesClient.dylib" [ltail="cluster_/usr/lib/libauto.dylib",lhead="cluster_/usr/lib/libDiagnosticMessagesClient.dylib"];
+	"/usr/lib/libauto.dylib" -> "/usr/lib/libc++.1.dylib" [ltail="cluster_/usr/lib/libauto.dylib",lhead="cluster_/usr/lib/libc++.1.dylib"];
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework" -> "/System/Library/Frameworks/AudioToolbox.framework" [lhead="cluster_/System/Library/Frameworks/AudioToolbox.framework"];
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework" -> "/System/Library/Frameworks/CoreText.framework" [lhead="cluster_/System/Library/Frameworks/CoreText.framework"];
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework" -> "/System/Library/Frameworks/DiskArbitration.framework" [lhead="cluster_/System/Library/Frameworks/DiskArbitration.framework"];
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework" -> "/usr/lib/libDiagnosticMessagesClient.dylib" [lhead="cluster_/usr/lib/libDiagnosticMessagesClient.dylib"];
+	"/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework" -> "/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Ink.framework" ;
+	"/System/Library/Frameworks/Foundation.framework" -> "/usr/lib/libextension.dylib" [ltail="cluster_/System/Library/Frameworks/Foundation.framework",lhead="cluster_/usr/lib/libextension.dylib"];
+	"/System/Library/Frameworks/Foundation.framework" -> "/usr/lib/libCRFSuite.dylib" [ltail="cluster_/System/Library/Frameworks/Foundation.framework",lhead="cluster_/usr/lib/libCRFSuite.dylib"];
+	"/System/Library/Frameworks/Foundation.framework" -> "/System/Library/Frameworks/CFNetwork.framework" [ltail="cluster_/System/Library/Frameworks/Foundation.framework",lhead="cluster_/System/Library/Frameworks/CFNetwork.framework"];
+	"/System/Library/Frameworks/Foundation.framework" -> "/System/Library/Frameworks/CoreServices.framework" [ltail="cluster_/System/Library/Frameworks/Foundation.framework",lhead="cluster_/System/Library/Frameworks/CoreServices.framework"];
+	"/System/Library/Frameworks/Foundation.framework" -> "/usr/lib/libarchive.2.dylib" [ltail="cluster_/System/Library/Frameworks/Foundation.framework",lhead="cluster_/usr/lib/libarchive.2.dylib"];
+	"/System/Library/Frameworks/Foundation.framework" -> "/usr/lib/liblangid.dylib" [ltail="cluster_/System/Library/Frameworks/Foundation.framework",lhead="cluster_/usr/lib/liblangid.dylib"];
+	"/System/Library/Frameworks/CoreLocation.framework" -> "/usr/lib/libxml2.2.dylib" [ltail="cluster_/System/Library/Frameworks/CoreLocation.framework",lhead="cluster_/usr/lib/libxml2.2.dylib"];
+	"/System/Library/Frameworks/CoreLocation.framework" -> "/usr/lib/libsqlite3.dylib" [ltail="cluster_/System/Library/Frameworks/CoreLocation.framework",lhead="cluster_/usr/lib/libsqlite3.dylib"];
+	"/System/Library/Frameworks/CoreLocation.framework" -> "/System/Library/Frameworks/IOKit.framework" [ltail="cluster_/System/Library/Frameworks/CoreLocation.framework",lhead="cluster_/System/Library/Frameworks/IOKit.framework"];
+	"/usr/lib/system/libsystem_networkextension.dylib" -> "/usr/lib/system/libsystem_notify.dylib" [ltail="cluster_/usr/lib/system/libsystem_networkextension.dylib",lhead="cluster_/usr/lib/system/libsystem_notify.dylib"];
+	"/usr/lib/system/libsystem_networkextension.dylib" -> "/usr/lib/system/libsystem_platform.dylib" [ltail="cluster_/usr/lib/system/libsystem_networkextension.dylib",lhead="cluster_/usr/lib/system/libsystem_platform.dylib"];
+	"/usr/lib/system/libsystem_networkextension.dylib" -> "/usr/lib/system/libcommonCrypto.dylib" [ltail="cluster_/usr/lib/system/libsystem_networkextension.dylib",lhead="cluster_/usr/lib/system/libcommonCrypto.dylib"];
+	"/usr/lib/system/libsystem_networkextension.dylib" -> "/usr/lib/system/libsystem_kernel.dylib" [ltail="cluster_/usr/lib/system/libsystem_networkextension.dylib",lhead="cluster_/usr/lib/system/libsystem_kernel.dylib"];
+	"/System/Library/Frameworks/CoreMedia.framework" -> "/System/Library/Frameworks/CoreAudio.framework" [ltail="cluster_/System/Library/Frameworks/CoreMedia.framework",lhead="cluster_/System/Library/Frameworks/CoreAudio.framework"];
+	"/System/Library/Frameworks/CoreMedia.framework" -> "/System/Library/Frameworks/Foundation.framework" [ltail="cluster_/System/Library/Frameworks/CoreMedia.framework",lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/Frameworks/CoreMedia.framework" -> "/System/Library/Frameworks/CoreVideo.framework" [ltail="cluster_/System/Library/Frameworks/CoreMedia.framework",lhead="cluster_/System/Library/Frameworks/CoreVideo.framework"];
+	"/usr/lib/libexslt.0.dylib" -> "/usr/lib/libxslt.1.dylib" [ltail="cluster_/usr/lib/libexslt.0.dylib",lhead="cluster_/usr/lib/libxslt.1.dylib"];
+	"/System/Library/Frameworks/SpriteKit.framework" -> "/System/Library/Frameworks/AVFoundation.framework" [ltail="cluster_/System/Library/Frameworks/SpriteKit.framework",lhead="cluster_/System/Library/Frameworks/AVFoundation.framework"];
+	"/System/Library/Frameworks/SpriteKit.framework" -> "/System/Library/Frameworks/CoreText.framework" [ltail="cluster_/System/Library/Frameworks/SpriteKit.framework",lhead="cluster_/System/Library/Frameworks/CoreText.framework"];
+	"/System/Library/Frameworks/SpriteKit.framework" -> "/System/Library/Frameworks/Cocoa.framework" [ltail="cluster_/System/Library/Frameworks/SpriteKit.framework",lhead="cluster_/System/Library/Frameworks/Cocoa.framework"];
+	"/System/Library/Frameworks/SpriteKit.framework" -> "/System/Library/Frameworks/OpenAL.framework" [ltail="cluster_/System/Library/Frameworks/SpriteKit.framework",lhead="cluster_/System/Library/Frameworks/OpenAL.framework"];
+	"/System/Library/Frameworks/SpriteKit.framework" -> "/System/Library/Frameworks/GLKit.framework" [ltail="cluster_/System/Library/Frameworks/SpriteKit.framework",lhead="cluster_/System/Library/Frameworks/GLKit.framework"];
+	"/System/Library/Frameworks/SpriteKit.framework" -> "/System/Library/Frameworks/JavaScriptCore.framework" [ltail="cluster_/System/Library/Frameworks/SpriteKit.framework",lhead="cluster_/System/Library/Frameworks/JavaScriptCore.framework"];
+	"/System/Library/Frameworks/Tcl.framework" -> "/usr/lib/libSystem.B.dylib" [ltail="cluster_/System/Library/Frameworks/Tcl.framework",lhead="cluster_/usr/lib/libSystem.B.dylib"];
+	"/System/Library/Frameworks/Tcl.framework" -> "/System/Library/Frameworks/CoreFoundation.framework" [ltail="cluster_/System/Library/Frameworks/Tcl.framework",lhead="cluster_/System/Library/Frameworks/CoreFoundation.framework"];
+	"/System/Library/Frameworks/WebKit.framework" -> "/System/Library/Frameworks/CoreAudio.framework" [ltail="cluster_/System/Library/Frameworks/WebKit.framework",lhead="cluster_/System/Library/Frameworks/CoreAudio.framework"];
+	"/System/Library/Frameworks/WebKit.framework" -> "/System/Library/Frameworks/QuartzCore.framework" [ltail="cluster_/System/Library/Frameworks/WebKit.framework",lhead="cluster_/System/Library/Frameworks/QuartzCore.framework"];
+	"/System/Library/Frameworks/WebKit.framework" -> "/System/Library/Frameworks/CoreText.framework" [ltail="cluster_/System/Library/Frameworks/WebKit.framework",lhead="cluster_/System/Library/Frameworks/CoreText.framework"];
+	"/System/Library/Frameworks/Cocoa.framework" -> "/System/Library/Frameworks/AppKit.framework" [ltail="cluster_/System/Library/Frameworks/Cocoa.framework",lhead="cluster_/System/Library/Frameworks/AppKit.framework"];
+	"/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework" -> "/usr/lib/libmecabra.dylib" [lhead="cluster_/usr/lib/libmecabra.dylib"];
+	"/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework" -> "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework" ;
+	"/usr/lib/system/libsystem_trace.dylib" -> "/usr/lib/system/libsystem_notify.dylib" [ltail="cluster_/usr/lib/system/libsystem_trace.dylib",lhead="cluster_/usr/lib/system/libsystem_notify.dylib"];
+	"/System/Library/Frameworks/JavaScriptCore.framework" -> "/System/Library/Frameworks/CoreFoundation.framework" [ltail="cluster_/System/Library/Frameworks/JavaScriptCore.framework",lhead="cluster_/System/Library/Frameworks/CoreFoundation.framework"];
+	"/System/Library/Frameworks/JavaScriptCore.framework" -> "/System/Library/Frameworks/Foundation.framework" [ltail="cluster_/System/Library/Frameworks/JavaScriptCore.framework",lhead="cluster_/System/Library/Frameworks/Foundation.framework"];
+	"/System/Library/Frameworks/GSS.framework" -> "/System/Library/Frameworks/OpenDirectory.framework" [ltail="cluster_/System/Library/Frameworks/GSS.framework",lhead="cluster_/System/Library/Frameworks/OpenDirectory.framework"];
+	"/System/Library/Frameworks/GSS.framework" -> "/System/Library/Frameworks/Security.framework" [ltail="cluster_/System/Library/Frameworks/GSS.framework",lhead="cluster_/System/Library/Frameworks/Security.framework"];
+	"/System/Library/Frameworks/GSS.framework" -> "/System/Library/Frameworks/SystemConfiguration.framework" [ltail="cluster_/System/Library/Frameworks/GSS.framework",lhead="cluster_/System/Library/Frameworks/SystemConfiguration.framework"];
+}
