@@ -43,7 +43,7 @@ def bundle_path_for_bin (bin_path):
 			return bin_path[:i] + ext
 	return bin_path
 
-def dependancies_for_framework(path):
+def dependencies_for_framework(path):
     
     if not path.endswith('.dylib'):
         bin = os.path.join(path, short_name_for_bundle(path))
@@ -85,7 +85,7 @@ def digraph(d):
           <TD COLSPAN="2"><B>OS X 10.10.2</B></TD>
          </TR>
          <TR>
-          <TD COLSPAN="2">Frameworks dependancies</TD>
+          <TD COLSPAN="2">Framework Dependencies</TD>
          </TR>
          <TR>
           <TD COLSPAN="2">2015-02-25 @nst021</TD>
@@ -170,19 +170,19 @@ def digraph(d):
 def build_graph(frameworks_set):
     d = {}
     for f in frameworks_set:
-        deps = dependancies_for_framework(f)
+        deps = dependencies_for_framework(f)
         d[f] = set(deps)
             
     return d
 
-def discover_new_dependancies(d):
+def discover_new_dependencies(d):
 
     d2 = d.copy()
     
     for deps in d.values():
         for f in deps:
             if f not in d2:
-                d2[f] = dependancies_for_framework(f)
+                d2[f] = dependencies_for_framework(f)
             
     return d2
 
@@ -228,26 +228,26 @@ class Tests(unittest.TestCase):
         s = short_name_for_bundle('/usr/lib/libSystem.B.dylib')
         self.assertEqual(s, 'libSystem.B')
     
-    def test_dependancies_for_framework(self):
+    def test_dependencies_for_framework(self):
 
-        deps = dependancies_for_framework('/System/Library/Frameworks/Accelerate.framework')
+        deps = dependencies_for_framework('/System/Library/Frameworks/Accelerate.framework')
         
         self.assertTrue('/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework' in deps)
         self.assertTrue('/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework' in deps)
         self.assertTrue('/usr/lib/libSystem.B.dylib' in deps)
 
-    def test_dependancies_for_framework_2(self):
+    def test_dependencies_for_framework_2(self):
         
-        deps = dependancies_for_framework('/System/Library/Frameworks/Foundation.framework')
+        deps = dependencies_for_framework('/System/Library/Frameworks/Foundation.framework')
         self.assertTrue('/System/Library/Frameworks/CoreFoundation.framework' in deps)
 
-        deps = dependancies_for_framework('/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework')
+        deps = dependencies_for_framework('/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework')
         self.assertTrue('/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib' in deps)
         
-        deps = dependancies_for_framework('/System/Library/Frameworks/vecLib.framework')
+        deps = dependencies_for_framework('/System/Library/Frameworks/vecLib.framework')
         self.assertTrue('/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLinearAlgebra.dylib' in deps)
         
-        deps = dependancies_for_framework('/usr/lib/system/libquarantine.dylib')
+        deps = dependencies_for_framework('/usr/lib/system/libquarantine.dylib')
         self.assertTrue('/usr/lib/system/libsystem_kernel.dylib' in deps)
         self.assertTrue('/usr/lib/system/libquarantine.dylib' not in deps)
     
@@ -292,7 +292,7 @@ if __name__ == '__main__':
             d = build_graph(data)
             d2 = {}
             while d2 != d:
-                d2 = discover_new_dependancies(d)
+                d2 = discover_new_dependencies(d)
                 d = d2
             
             d_no_dd = {}
